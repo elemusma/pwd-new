@@ -8,20 +8,39 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "browserslist": [
+    "chrome 64",
+    "edge 79",
+    "firefox 67",
+    "opera 51",
+    "safari 12"
+  ],
   "dependencies": {
+    "@calcom/embed-react": "^1.5.3",
+    "clsx": "^2.1.1",
+    "gsap": "^3.15.0",
+    "he": "^1.2.0",
+    "lenis": "^1.3.25",
+    "lucide-react": "^1.24.0",
+    "next": "15.5.20",
+    "next-intl": "^4.13.2",
+    "nodemailer": "^9.0.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.20"
+    "react-fast-marquee": "^1.6.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/he": "^1.2.3",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.1",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.20",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

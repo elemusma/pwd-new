@@ -1,0 +1,722 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "webDesign": "Diseño Web",
+    "seo": "SEO",
+    "portfolio": "Portafolio",
+    "caseStudies": "Casos de Éxito",
+    "pricing": "Precios",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "podcast": "Podcast",
+    "whitePaper": "White Paper",
+    "contact": "Contacto",
+    "calendar": "Calendario",
+    "bookACall": "Agenda una llamada"
+  },
+  "general": {
+    "metaTitle": "Diseño Web y SEO en Denver, CO",
+    "tagline": "Diseño web y SEO para negocios de Denver que quieren ser encontrados.",
+    "bookFreeCall": "Agenda una llamada estratégica gratis",
+    "orCall": "O llama al {phone}",
+    "learnMore": "Más información",
+    "readMore": "Leer más",
+    "getStarted": "Empezar",
+    "payNow": "¿Ya sabes lo que necesitas? Paga ahora",
+    "googleReviews": "{count} reseñas de Google",
+    "pageOf": "Página {current} de {total}"
+  },
+  "about": {
+    "metaTitle": "Nosotros",
+    "metaDescription": "Conoce a la persona detrás de {name}: {years} años en diseño web y SEO, {yearsInBusiness} años dirigiendo un estudio independiente en Denver, CO.",
+    "title": "Sobre Mí",
+    "heroHeading": "Diez años en la industria. {yearsInBusiness} años haciéndolo a mi manera.",
+    "intro1": "Soy el fundador, y todo el equipo, detrás de {name}. Durante diez años he diseñado sitios web y los he optimizado para búsqueda, primero dentro de agencias y equipos internos, y en los últimos {yearsInBusiness} años por mi cuenta, trabajando directamente con pequeñas y medianas empresas en {city}.",
+    "intro2": "Empecé este estudio porque seguía viendo el mismo problema: dueños de negocios pagando precios de agencia por trabajo de nivel junior, filtrado a través de gerentes de cuenta que no podían responder una pregunta técnica aunque su trabajo dependiera de ello. Así que eliminé la capa intermedia. Cuando trabajas con {shortName}, trabajas con alguien que ha pasado una década haciendo exactamente esto. Nada subcontratado, nada delegado.",
+    "intro3": "Eso significa menos clientes a la vez, más atención en cada uno, y una estrategia de sitio web y SEO que realmente refleja el negocio para el que fue construida.",
+    "atAGlance": "En resumen",
+    "glance": {
+      "experience": "Diseñando y optimizando sitios web",
+      "running": "Dirigiendo {name}",
+      "personally": "Del trabajo hecho por mí, personalmente",
+      "basedHere": "Con sede aquí, enfocado en negocios locales"
+    },
+    "values": {
+      "eyebrow": "Cómo trabajo",
+      "heading": "Los principios detrás de cada proyecto.",
+      "items": [
+        {
+          "title": "Comunicación directa",
+          "description": "Hablas con la persona que hace el trabajo. Sin gerentes de cuenta transmitiendo mensajes, sin esperar una cadena de aprobaciones."
+        },
+        {
+          "title": "Oficio sobre plantillas",
+          "description": "Cada sitio se construye para encajar con el negocio que representa, no estirado sobre un tema genérico y llamado personalizado."
+        },
+        {
+          "title": "SEO basado en datos",
+          "description": "Las decisiones de posicionamiento se respaldan con datos de búsqueda y auditorías técnicas, no con conjeturas o listas de verificación recicladas."
+        },
+        {
+          "title": "Precios honestos",
+          "description": "Alcances claros y números claros desde el principio. Sin retenedores inflados para cubrir gastos generales de una agencia."
+        },
+        {
+          "title": "Demuéstralo antes de pagar",
+          "description": "La mayoría de los nuevos clientes empiezan con una maqueta gratuita de página de inicio o una auditoría rápida del sitio, para que puedas juzgar el trabajo antes de gastar algo."
+        },
+        {
+          "title": "Se lleva bien con tu equipo",
+          "description": "¿Ya tienes un diseñador o una persona de marketing de confianza? Trabajaré junto a ellos en lugar de reemplazarlos."
+        }
+      ]
+    },
+    "timeline": {
+      "eyebrow": "El camino hasta aquí",
+      "heading": "Una década de experiencia, condensada en un solo estudio.",
+      "items": [
+        {
+          "year": "Hace 10 años",
+          "title": "Empecé a construir sitios web",
+          "description": "Aprendí diseñando y desarrollando sitios, entendiendo qué es lo que realmente hace que una página sea rápida, usable y fácil de mantener."
+        },
+        {
+          "year": "Desde entonces",
+          "title": "Me especialicé en SEO",
+          "description": "Pasé años profundizando en SEO técnico, búsqueda local y estrategia de contenido: las partes que deciden si un buen sitio realmente se encuentra."
+        },
+        {
+          "year": "Hace {yearsInBusiness} años",
+          "title": "Lancé {name}",
+          "description": "Me independicé para trabajar directamente con dueños de negocios en Denver, sin los gastos generales ni los traspasos de una agencia tradicional."
+        },
+        {
+          "year": "Hoy",
+          "title": "Un estudio, cada cliente",
+          "description": "Cada proyecto, diseño, construcción o SEO, recibe a la misma persona y el mismo estándar de trabajo."
+        }
+      ]
+    },
+    "cta": "¿Quieres trabajar directamente con la persona que hace el trabajo?"
+  },
+  "services": {
+    "metaTitle": "Servicios",
+    "metaDescription": "Servicios de diseño web y SEO para negocios en {city}, atendidos personalmente por {name}.",
+    "heading": "Dos disciplinas que van juntas.",
+    "subhead": "Un gran sitio web que nadie encuentra y un buen posicionamiento para un sitio que no convierte son ambos un desperdicio de dinero. Yo manejo ambos, así que están construidos para trabajar juntos desde el principio.",
+    "cards": {
+      "webDesign": {
+        "title": "Diseño Web",
+        "description": "Sitios web personalizados y de carga rápida diseñados para convertir visitantes en clientes, sin plantillas genéricas.",
+        "bullets": [
+          "Diseño y construcción personalizados",
+          "Adaptado a móviles y rápido",
+          "Construido con bases de SEO desde el inicio"
+        ],
+        "explore": "Explorar diseño web"
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "SEO técnico, optimización de búsqueda local y estrategia de contenido para que los negocios de Denver sean encontrados en Google.",
+        "bullets": [
+          "Auditorías técnicas de SEO",
+          "Optimización local y de Google Business",
+          "Estrategia continua de contenido y posicionamiento"
+        ],
+        "explore": "Explorar SEO"
+      }
+    },
+    "whoIWorkWith": {
+      "eyebrow": "Con quién trabajo",
+      "heading": "Negocios reales de Denver, no un nicho.",
+      "intro": "Los clientes anteriores abarcan una amplia gama de industrias. Lo que tienen en común es querer acceso directo a la persona que hace el trabajo, no a un gerente de cuenta.",
+      "industries": [
+        "Abogados y profesionales legales",
+        "Prácticas médicas y de bienestar",
+        "Servicios del hogar y contratistas",
+        "Consultores y peritos forenses",
+        "Comercio local y oficios especializados",
+        "Dueños de pequeños negocios, en general"
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas comunes",
+      "heading": "Antes de contactarme.",
+      "items": [
+        {
+          "question": "¿Manejas diseño web y SEO para el mismo proyecto?",
+          "answer": "Sí. La mayoría de los clientes empiezan con uno u otro y agregan el segundo una vez que ven resultados. Los sitios que diseño se construyen con fundamentos de SEO desde el primer día, lo que hace que la optimización futura sea mucho más efectiva."
+        },
+        {
+          "question": "¿Necesito un sitio web nuevo antes de empezar con SEO?",
+          "answer": "No necesariamente. Si tu sitio actual está razonablemente bien, muchas veces podemos mejorar el posicionamiento sin reconstruirlo. Te diré honestamente si un rediseño realmente marcaría la diferencia antes de recomendarlo."
+        },
+        {
+          "question": "¿Cuánto tiempo tarda en ver resultados de SEO?",
+          "answer": "Las mejoras de SEO local (Perfil de Google Business, citaciones, ajustes en la página) pueden mostrar movimiento en semanas. El posicionamiento orgánico competitivo normalmente toma de 3 a 6 meses de trabajo constante."
+        },
+        {
+          "question": "¿Trabajas con negocios fuera de Denver?",
+          "answer": "Denver y el Front Range circundante son mi enfoque, ya que el conocimiento del mercado local importa para el SEO. Sí tomo proyectos de diseño web más lejos caso por caso."
+        }
+      ]
+    },
+    "cta": "¿No sabes cuál necesitas?",
+    "ctaButton": "Hablemos para decidir"
+  },
+  "portfolioPage": {
+    "metaTitle": "Portafolio",
+    "metaDescription": "Trabajo reciente de diseño web y SEO para negocios en {city} y más allá.",
+    "heading": "Trabajo reciente.",
+    "subhead": "Pasa el cursor sobre cualquier proyecto para recorrer la página completa.",
+    "cta": "¿Quieres ver tu negocio aquí después?",
+    "viewWebsite": "Ver sitio web",
+    "comingSoon": "Próximamente"
+  },
+  "caseStudiesPage": {
+    "metaTitle": "Casos de Éxito",
+    "metaDescription": "Resultados reales de clientes reales de {name}.",
+    "heading": "Casos de éxito.",
+    "subhead": "Los casos de éxito detallados de proyectos individuales se están agregando a medida que estén listos. Mientras tanto, esto es lo que dicen los clientes reales después de trabajar juntos.",
+    "cta": "¿Quieres resultados así para tu negocio?",
+    "empty": "No hay casos de éxito para mostrar por ahora. Vuelve pronto."
+  },
+  "webDesignPage": {
+    "metaTitle": "Empresa de Diseño Web en Denver",
+    "metaDescription": "Diseño de sitios web personalizados y de carga rápida para negocios en {city}. Construidos a mano, no con plantillas.",
+    "heading": "Diseño web en Denver construido para cargar rápido y ganar clientes.",
+    "subhead": "Cada sitio se diseña y construye a mano para el negocio que representa. Rápido, claro y con una base técnica que le da a tu SEO una ventaja desde el inicio.",
+    "deliverables": {
+      "eyebrow": "Qué incluye",
+      "heading": "Todo lo que un sitio de negocio moderno necesita.",
+      "items": [
+        {
+          "title": "Diseño personalizado",
+          "description": "Un sitio diseñado en torno a tu negocio y tus clientes, no un tema reciclado con tu logo puesto encima."
+        },
+        {
+          "title": "Construido para velocidad",
+          "description": "Código ligero y moderno que carga rápido en cualquier dispositivo. La velocidad afecta tanto las conversiones como el posicionamiento en Google."
+        },
+        {
+          "title": "Prioridad móvil",
+          "description": "Diseñado primero para pantalla pequeña, ya que la mayoría de tu tráfico vendrá de un teléfono."
+        },
+        {
+          "title": "Base lista para SEO",
+          "description": "Código limpio, estructura de encabezados adecuada, tiempos de carga rápidos y metadatos configurados correctamente desde el lanzamiento."
+        },
+        {
+          "title": "Fácil de actualizar",
+          "description": "Podrás editar el contenido tú mismo sin necesidad de llamarme por cada pequeño cambio."
+        },
+        {
+          "title": "Soporte de lanzamiento",
+          "description": "Dominio, hosting, analítica y una guía para que empieces bien configurado desde el primer día."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Proceso",
+      "heading": "Desde la primera llamada hasta el día del lanzamiento.",
+      "items": [
+        {
+          "title": "Descubrimiento",
+          "description": "Hablamos sobre tu negocio, tus clientes y lo que el sitio necesita hacer."
+        },
+        {
+          "title": "Diseño",
+          "description": "Diseño el sitio en torno a tu contenido y objetivos, con rondas de retroalimentación incluidas."
+        },
+        {
+          "title": "Construcción",
+          "description": "El diseño se convierte en un sitio rápido y funcional, probado en dispositivos y navegadores."
+        },
+        {
+          "title": "Lanzamiento",
+          "description": "El sitio se publica con analítica, configuración básica de SEO y una guía de cómo administrarlo."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "heading": "Preguntas que hacen los clientes antes de empezar.",
+      "items": [
+        {
+          "question": "¿Cuánto tiempo toma un proyecto de sitio web?",
+          "answer": "La mayoría de los proyectos toman de 3 a 6 semanas desde el inicio hasta el lanzamiento, dependiendo del alcance y qué tan rápido llegan el contenido y la retroalimentación."
+        },
+        {
+          "question": "¿En qué plataforma construyes?",
+          "answer": "Elijo la herramienta correcta para el trabajo, generalmente un sitio moderno construido a mano para velocidad y flexibilidad, o un CMS bien configurado si necesitas publicar contenido frecuentemente tú mismo."
+        },
+        {
+          "question": "¿Podré hacer cambios después del lanzamiento?",
+          "answer": "Sí. Cada sitio se configura para que puedas editar texto, imágenes y contenido básico sin tocar código. Te explicaré cómo hacerlo en el lanzamiento."
+        },
+        {
+          "question": "¿También escribes el contenido?",
+          "answer": "Puedo guiar la estructura y los mensajes, y editar lo que tú proporciones. La redacción completa está disponible como complemento si prefieres que yo lo redacte desde cero."
+        }
+      ]
+    },
+    "cta": "¿Listo para hablar sobre tu sitio web?"
+  },
+  "seoPage": {
+    "metaTitle": "Empresa de SEO en Denver | Agencia de SEO Local",
+    "metaDescription": "SEO técnico y optimización de búsqueda local para negocios en {city}, diseñado para que te encuentren en Google.",
+    "heading": "SEO en Denver para que te encuentren los clientes que ya te están buscando.",
+    "subhead": "SEO técnico, optimización de búsqueda local y estrategia de contenido creada específicamente para negocios de {city} que compiten por clientes reales, no solo tráfico.",
+    "deliverables": {
+      "eyebrow": "Qué incluye",
+      "heading": "Una estrategia de SEO completa, no una lista de verificación.",
+      "items": [
+        {
+          "title": "Auditoría técnica de SEO",
+          "description": "Una revisión completa de la velocidad, rastreabilidad, indexación y estructura del sitio para encontrar qué está frenando el posicionamiento."
+        },
+        {
+          "title": "SEO local y Google Business",
+          "description": "Perfil de Google Business optimizado, citaciones locales y páginas de ubicación creadas para ganar el mapa de resultados en Denver."
+        },
+        {
+          "title": "Optimización en la página",
+          "description": "Títulos, meta descripciones, encabezados y enlaces internos estructurados según cómo buscan realmente los clientes."
+        },
+        {
+          "title": "Estrategia de contenido",
+          "description": "Un plan de contenido basado en demanda de búsqueda real, no solo publicar entradas de blog por publicar."
+        },
+        {
+          "title": "Correcciones técnicas continuas",
+          "description": "Monitoreo regular para detectar errores de rastreo, enlaces rotos y problemas de rendimiento antes de que cuesten posicionamiento."
+        },
+        {
+          "title": "Reportes en lenguaje sencillo",
+          "description": "Actualizaciones mensuales sobre posicionamiento, tráfico y próximos pasos, sin métricas vacías ni paneles llenos de jerga."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Proceso",
+      "heading": "Cómo mejora realmente el posicionamiento.",
+      "items": [
+        {
+          "title": "Auditoría",
+          "description": "Una auditoría técnica y competitiva completa para ver dónde estás parado y qué te está costando posicionamiento."
+        },
+        {
+          "title": "Estrategia",
+          "description": "Un plan priorizado enfocado primero en las correcciones y oportunidades de mayor impacto."
+        },
+        {
+          "title": "Ejecución",
+          "description": "Correcciones técnicas, cambios en la página y configuración de SEO local implementados directamente."
+        },
+        {
+          "title": "Seguimiento y ajuste",
+          "description": "Monitoreo continuo y ajustes basados en datos reales de posicionamiento y tráfico."
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Cómo abordo realmente el SEO",
+      "paragraphs": [
+        "La mayoría de las propuestas de SEO son vagas a propósito, \"mejoraremos tu posicionamiento\" suena bien y no compromete a nada. Esto es específicamente lo que sucede.",
+        "Cada página se construye según cómo buscan realmente tus clientes, no según una lista de palabras clave. Eso significa mapeo real de temas ligado a tus servicios específicos, no contenido genérico relleno de términos de búsqueda. En las primeras 6-8 semanas típicamente establezco 8-10 áreas temáticas prioritarias en tus páginas principales. Después de eso, el contenido continuo se construye sobre lo que realmente está generando consultas.",
+        "No garantizo posicionamiento. Honestamente nadie puede, ni en Google ni en resultados de búsqueda con IA como ChatGPT y AI Overviews. Lo que sí garantizo es que el contenido está construido para ser genuinamente útil, que es lo que realmente premian tanto los motores de búsqueda como los sistemas de IA.",
+        "Espera indexación de páginas y visibilidad para el nombre de tu negocio más tus servicios a los 3 meses, tráfico en términos de búsqueda más específicos a los 6 meses, y visibilidad real en tu área de servicio a los 12 meses. Estos son patrones típicos, no promesas, cada industria y mercado se mueve de manera diferente.",
+        "La gestión de backlinks está incluida en el plan de $2,000/mes. Es orgánico, es decir, contacto manualmente a dueños de sitios reales y consigo enlaces editoriales genuinos. Las directrices de Google prohíben comprar backlinks, así que esta es la versión que realmente se sostiene en lugar de poner en riesgo tu sitio."
+      ]
+    },
+    "specialty": {
+      "eyebrow": "Una especialidad dentro del SEO",
+      "heading": "SEO para contratistas y negocios de servicios del hogar en Denver.",
+      "body": "El SEO para contratistas y servicios del hogar premia a los negocios que aparecen para los trabajos exactos que la gente busca: techado, plomería, HVAC, remodelación y construcción general. Si diriges un negocio de servicios del hogar o de contratista en Denver, aquí es donde paso buena parte de mi tiempo: páginas de área de servicio, galerías de proyectos que realmente posicionan, y un Perfil de Google Business configurado según cómo buscan los dueños de casa cuando algo se rompe.",
+      "items": [
+        "SEO local para contratistas",
+        "SEO para servicios del hogar",
+        "SEO para empresas de construcción",
+        "Estructura de páginas de área de servicio",
+        "Perfil de Google Business para contratistas"
+      ]
+    },
+    "faq": {
+      "eyebrow": "Preguntas frecuentes",
+      "heading": "Preguntas que hacen los clientes antes de empezar.",
+      "items": [
+        {
+          "question": "¿Qué te hace diferente de otras empresas de SEO en Denver?",
+          "answer": "La mayoría de las empresas y agencias de SEO en Denver te asignan un gerente de cuenta que transmite tus preguntas a quien esté haciendo el trabajo esa semana. Yo soy la persona que hace el trabajo: auditorías, estrategia, redacción, correcciones técnicas, todo. No pagas por capas de gastos generales de agencia, y no eres una cuenta más entre cientos."
+        },
+        {
+          "question": "¿En qué se diferencia el SEO local del SEO regular?",
+          "answer": "El SEO local se enfoca en posicionar para búsquedas con intención local: búsquedas 'cerca de mí', el mapa de resultados de Google y palabras clave basadas en ubicación. Depende mucho de tu Perfil de Google Business, citaciones y contenido específico de ubicación, además del SEO técnico y en la página estándar."
+        },
+        {
+          "question": "¿Garantizas posicionamiento en la primera página?",
+          "answer": "No, y cualquiera que garantice posicionamientos específicos no está siendo honesto contigo. El algoritmo de Google no es algo que ninguna agencia controle. Lo que sí puedo garantizar es una estrategia completa y técnicamente sólida, con reportes transparentes sobre el progreso real."
+        },
+        {
+          "question": "¿Cuánto cuesta el SEO al mes?",
+          "answer": "Depende de tu mercado y qué tan competitivas sean tus palabras clave. Consulta la página de precios para rangos típicos, o agenda una llamada y te daré una respuesta directa según tu situación."
+        },
+        {
+          "question": "¿Puedes hacer SEO en mi sitio web actual?",
+          "answer": "En la mayoría de los casos, sí. Primero auditaré tu sitio actual y te haré saber si hay limitaciones técnicas que valga la pena resolver antes de empezar."
+        },
+        {
+          "question": "¿Esto me ayudará a posicionarme en resultados de búsqueda con IA (ChatGPT, AI Overviews de Google, etc.)?",
+          "answer": "No puedo garantizar posiciones específicas, ni en búsquedas con IA ni en resultados normales de Google. Cualquiera que garantice eso no está siendo honesto contigo. Lo que sí puedo decirte es que escribo contenido que vale la pena leer, para que tanto los motores de búsqueda como los sistemas de IA lo reconozcan como genuinamente útil.\n\nLos sistemas de IA como AI Overviews de Google, ChatGPT y Bing toman contenido que demuestra experiencia real, no páginas saturadas de palabras clave. Eso significa estructurar tu sitio alrededor de lo que realmente haces, usando señales claras (quién eres, para qué estás calificado, los problemas específicos que resuelves), y construyendo autoridad con pruebas reales, no trucos.\n\nEn el lado técnico, implemento schema markup para que los motores de búsqueda y los sistemas de IA entiendan quién eres y qué hace tu negocio. No existe un \"truco de optimización para ChatGPT\". Construyo visibilidad a través de contenido que realmente vale la pena citar."
+        },
+        {
+          "question": "¿Cuántas páginas tendrá mi sitio web?",
+          "answer": "Depende de cuántos servicios distintos ofrezcas, no de un número fijo. Si tu negocio hace tres cosas genuinamente diferentes, las personas que buscan cada una quieren respuestas diferentes, así que cada una obtiene su propia página en lugar de una sola página tratando de cubrirlo todo.\n\nUna construcción típica incluye una página de inicio, una página de nosotros, una vista general de servicios, páginas individuales para cada servicio principal, y una página de contacto. La estructura está construida para crecer. A medida que aprendemos qué buscan realmente tus clientes, agregamos páginas. No relleno un sitio con páginas que nadie necesita solo para llegar a un número."
+        },
+        {
+          "question": "¿Qué estrategia de SEO usas realmente?",
+          "answer": "SEO centrado en las personas. Mapeo tu contenido según cómo buscan realmente tus clientes, no según una lista de palabras clave individuales. Nadie busca una sola palabra como \"plomero\". Buscan frases ligadas a un problema real que están tratando de resolver.\n\nCada página principal se enfoca en algunos temas prioritarios que coinciden con lo que tus clientes realmente están tratando de resolver cuando llegan a esa página. Si tienes tu propia investigación, una lista de un grupo de la industria, o ideas de tu propia experiencia con clientes, envíamelas. Eso es información valiosa y la incorporaré a la estructura del sitio. No voy a rellenar esos términos en el texto, voy a construir contenido genuino alrededor de lo que realmente significan, porque eso es lo que posiciona a largo plazo y lo que convierte a un visitante en cliente."
+        },
+        {
+          "question": "¿Cómo decides qué términos de búsqueda perseguir, y cuántos puedes cubrir realmente?",
+          "answer": "La prioridad se reduce a tres cosas: tus servicios principales, cómo buscan realmente tus clientes, y la profundidad del contenido, es decir, calidad sobre cantidad.\n\nEn las primeras 6-8 semanas, típicamente me enfoco en 8-10 áreas temáticas principales en tus páginas centrales. Eso no es un intento de posicionar para 50 palabras clave a la vez. Se trata de establecer autoridad real en lo que realmente haces.\n\nDespués del lanzamiento, el contenido continuo extiende esa cobertura según las consultas que realmente estás recibiendo y lo que está cambiando en tu industria.\n\nCronograma aproximado: a los 3 meses, tus páginas principales deberían estar indexadas y posicionando para el nombre de tu negocio más tus términos de servicio principales. A los 6 meses, deberías empezar a ver tráfico para búsquedas más específicas. A los 12 meses, deberías tener visibilidad real para las búsquedas más amplias en tu área de servicio. Estos son patrones generales, no garantías. Los resultados varían según la industria y la competencia."
+        },
+        {
+          "question": "¿El SEO es parte de la construcción del sitio, o empieza por separado?",
+          "answer": "El SEO no es una fase que agrego después de construir el sitio, está integrado en la construcción misma. La velocidad del sitio, la optimización móvil, el código limpio, la estructura de URLs, la jerarquía de encabezados, los enlaces internos, y el schema markup básico son todos parte de la construcción, no un extra.\n\nEn las primeras 6-8 semanas: base técnica de SEO, contenido de páginas principales, enlaces internos, y datos estructurados para que los motores de búsqueda entiendan quién eres.\n\nDespués del lanzamiento: estrategia de contenido continua, gestión de backlinks, y revisiones trimestrales del rendimiento de cada página. Tendremos llamadas mensuales para revisar qué está funcionando, y me pondré en contacto directamente si algo necesita tu aporte entre medio."
+        },
+        {
+          "question": "¿Quién escribe el contenido, y quién es responsable de qué?",
+          "answer": "Yo escribo todo el contenido inicial. Tú lo revisas para verificar precisión y asegurarte de que suene como tú. Yo manejo toda la implementación técnica. Después del lanzamiento, establecemos juntos un ritmo para contenido nuevo y decidimos cuándo expandirnos a nuevos temas según lo que realmente esté generando consultas."
+        },
+        {
+          "question": "¿Construyes backlinks? ¿Cómo?",
+          "answer": "Sí, la gestión de backlinks está incluida en el plan de SEO de $2,000/mes. Es contacto orgánico, es decir, contacto manualmente a dueños de sitios reales y consigo enlaces editoriales genuinos, no comprados.\n\nLas propias directrices de Google prohíben comprar backlinks. Cualquier agencia que te venda un paquete de enlaces a precio fijo, especialmente las que destacan métricas infladas como \"DA 90+\", te está vendiendo algo que puede penalizar tu sitio, no algo que lo ayude. El contacto real es más lento, pero es la versión que no pone en riesgo tu sitio."
+        }
+      ]
+    },
+    "cta": "¿Listo para posicionar mejor en Denver?"
+  },
+  "contact": {
+    "metaTitle": "Contacto",
+    "metaDescription": "Ponte en contacto con {name} en {city} para ayuda con diseño web o SEO.",
+    "heading": "Hablemos de tu proyecto.",
+    "subhead": "Envía un mensaje abajo, o agenda directamente una llamada estratégica gratis si ya sabes que quieres hablar.",
+    "details": {
+      "email": "Correo",
+      "phone": "Teléfono",
+      "location": "Ubicación"
+    },
+    "form": {
+      "name": "Nombre",
+      "email": "Correo",
+      "phone": "Teléfono",
+      "optional": "(opcional)",
+      "message": "¿En qué necesitas ayuda?",
+      "send": "Enviar mensaje",
+      "sending": "Enviando",
+      "successTitle": "Mensaje enviado.",
+      "successBody": "Gracias por contactarme. Te responderé dentro de un día hábil.",
+      "genericError": "Algo salió mal. Por favor intenta de nuevo."
+    }
+  },
+  "thankYou": {
+    "metaTitle": "Mensaje Enviado",
+    "heading": "¡Gracias!",
+    "body": "Tu mensaje ha sido enviado con éxito. Me pondré en contacto contigo pronto.",
+    "cta": "Reserva una llamada de estrategia gratis",
+    "backHome": "Volver al inicio",
+    "listenOn": "Escucha el podcast en:",
+    "urgentQuestions": "¿Tienes preguntas urgentes?"
+  },
+  "ctaForm": {
+    "heading": "Mejora tu Presencia en Línea, Reconocimiento de Marca y Branding",
+    "subhead": "Si necesitas ayuda para conseguir más clientes, envía un mensaje para comenzar con tu sitio web o iniciar una estrategia de SEO que te posicione en Google y AI, generando más llamadas, mensajes y correos.",
+    "submit": "Consigue Más Clientes y Que Te Encuentren"
+  },
+  "calendar": {
+    "metaTitle": "Calendario",
+    "metaDescription": "Agenda una llamada estratégica gratis con {name}.",
+    "heading": "Agenda una llamada estratégica gratis.",
+    "subhead": "30 minutos, sin presión. Hablaremos sobre tu sitio web o tus objetivos de SEO y si {shortName} es la opción correcta para ti."
+  },
+  "blogPage": {
+    "metaTitle": "Blog",
+    "metaDescription": "Ideas sobre diseño web y SEO de {name}, con sede en {city}.",
+    "title": "Blog",
+    "heading": "Diseño web y SEO, explicado con claridad.",
+    "empty": "No hay publicaciones para mostrar por ahora. Vuelve pronto.",
+    "cta": "¿Tienes un proyecto en mente?"
+  },
+  "podcastPage": {
+    "metaTitle": "Podcast",
+    "metaDescription": "Conversaciones sobre diseño web, SEO y cómo dirigir un negocio, presentado por {name}.",
+    "heading": "El podcast.",
+    "subhead": "Conversaciones con abogados. Más episodios próximamente. Pronto expandiendo a otras industrias.",
+    "empty": "No hay episodios para mostrar por ahora. Vuelve pronto.",
+    "cta": "¿Quieres ser invitado en el podcast?",
+    "backToPodcast": "Volver al podcast",
+    "notFound": "Episodio no encontrado",
+    "listenOn": "Escúchalo en",
+    "shareEpisode": "Comparte este episodio",
+    "whitePaperCta": {
+      "imageAlt": "Consigue más casos y que los abogados te encuentren - white paper gratis",
+      "body": "White paper gratis sobre cómo los abogados realmente buscan peritos expertos en línea.",
+      "button": "Descargar White Paper"
+    }
+  },
+  "blogPost": {
+    "backToBlog": "Volver al blog",
+    "updated": "(actualizado el {date})",
+    "cta": "¿Listo para poner esto en práctica?",
+    "notFound": "Publicación no encontrada",
+    "onThisPage": "En esta página",
+    "authorRole": "Fundador, Precise Wolf Digital",
+    "authorBio": "Diez años de experiencia práctica en diseño web y SEO, sin gerentes de cuenta, sin subcontratación.",
+    "shareArticle": "Comparte este artículo",
+    "whitePaperCta": {
+      "imageAlt": "Consigue más casos y que los abogados te encuentren - white paper gratis",
+      "body": "White paper gratis sobre cómo los abogados realmente buscan peritos expertos en línea.",
+      "button": "Descargar White Paper"
+    }
+  },
+  "whitePaper": {
+    "metaTitle": "White Paper Gratis: Consigue Más Casos y Que los Abogados Te Encuentren",
+    "metaDescription": "Descarga gratis nuestro white paper sobre cómo los peritos expertos pueden ser encontrados por abogados y ganar más casos.",
+    "heading": "Consigue Más Casos y Que los Abogados Te Encuentren",
+    "subhead": "Un white paper gratis sobre cómo los abogados realmente buscan peritos expertos en línea, y qué necesitan tu sitio web y contenido para aparecer cuando importa.",
+    "imageAlt": "Consigue más casos y que los abogados te encuentren - white paper gratis",
+    "form": {
+      "email": "Correo electrónico",
+      "submit": "Descargar White Paper",
+      "submitting": "Enviando",
+      "genericError": "Algo salió mal. Por favor intenta de nuevo."
+    },
+    "thankYou": {
+      "metaTitle": "White Paper Solicitado",
+      "heading": "¡Felicidades!",
+      "body": "Recibirás el white paper por correo electrónico en breve. Ese es el primer paso para conseguir más casos y que los abogados te encuentren.",
+      "cta": "Reserva una llamada de estrategia gratis",
+      "backToBlog": "Volver al blog"
+    }
+  },
+  "home": {
+    "heroLine1": "Sitios web que se ven bien",
+    "heroLine2": "y que <accent>posicionan</accent> mejor.",
+    "heroSubhead": "Un estudio de diseño web y SEO en Denver enfocado en una sola cosa: hacer que tu negocio se encuentre y convertir ese tráfico en clientes. Diez años construyendo y optimizando sitios que realmente funcionan.",
+    "viewServices": "Ver servicios",
+    "stats": {
+      "totalClicks": "Clics totales",
+      "totalImpressions": "Impresiones totales",
+      "experience": "Años de experiencia",
+      "websitesBuilt": "Sitios web construidos"
+    },
+    "whatIDo": {
+      "eyebrow": "Lo que hago",
+      "heading": "Construido para que te encuentren. Diseñado para convertir.",
+      "webDesign": {
+        "title": "Diseño Web",
+        "description": "Sitios web rápidos, modernos y enfocados en conversión, construidos a mano, no con plantillas genéricas. Diseñados para cargar rápido y convertir visitantes en clientes."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "SEO técnico, optimización de búsqueda local y estrategia de contenido para que los negocios de Denver sean encontrados en Google, y se mantengan ahí.",
+        "trustLine": "Sin posicionamiento garantizado, sin páginas saturadas de palabras clave, sin backlinks comprados. SEO construido para funcionar de verdad, no para sonar bien en una propuesta."
+      }
+    },
+    "whyUs": {
+      "eyebrow": "Por qué trabajar conmigo",
+      "heading": "Acceso real. Precios reales. Resultados reales.",
+      "items": {
+        "directAccess": {
+          "title": "Acceso directo, sin intermediarios",
+          "description": "Cada llamada estratégica, decisión de diseño y cambio de SEO pasa por la persona que realmente hace el trabajo: diez años de experiencia práctica, sin gerentes de cuenta transmitiendo mensajes."
+        },
+        "aiSearch": {
+          "title": "Construido para Google y búsqueda con IA",
+          "description": "Schema markup, señales claras de experiencia y contenido estructurado para ser citado en ChatGPT y AI Overviews de Google, no solo posicionado en la primera página."
+        },
+        "pricing": {
+          "title": "Precios transparentes y fijos",
+          "description": "Los sitios web comienzan en $5,000. El SEO comienza en $2,000 al mes. Sin retenedores inflados, sin facturas sorpresa a los seis meses."
+        },
+        "dataBacked": {
+          "title": "SEO basado en datos",
+          "description": "Las decisiones de posicionamiento se respaldan con datos de búsqueda y auditorías técnicas, no con conjeturas o listas de verificación recicladas."
+        },
+        "noContracts": {
+          "title": "Sin contratos a largo plazo",
+          "description": "El SEO es mes a mes. Prefiero ganarme el trabajo cada mes en lugar de atraparte en un contrato."
+        },
+        "reviews": {
+          "title": "73 reseñas de 5 estrellas en Google",
+          "description": "Comentarios reales de clientes reales, no testimonios genéricos."
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Cómo funciona",
+      "heading": "Un proceso simple, de principio a fin.",
+      "discover": {
+        "title": "Descubrir",
+        "description": "Una conversación real sobre tu negocio, tus clientes y lo que realmente está frenando tu sitio."
+      },
+      "designBuild": {
+        "title": "Diseñar y construir",
+        "description": "Un sitio personalizado construido para velocidad y claridad, sin creadores de páginas sobrecargados ni plantillas reciclada."
+      },
+      "optimize": {
+        "title": "Optimizar",
+        "description": "SEO en la página, correcciones técnicas y configuración de SEO local para que los clientes de Denver realmente te encuentren."
+      },
+      "grow": {
+        "title": "Crecer",
+        "description": "Mejoras continuas de SEO y del sitio, con seguimiento y reportes en lenguaje sencillo, sin jerga de marketing."
+      }
+    },
+    "pricingTeaser": {
+      "heading": "Sin costos ocultos. Sin cotizaciones vagas.",
+      "body": "Los sitios web comienzan en $5,000. El SEO comienza en $2,000 al mes. Así de simple. Sin paquetes adicionales, sin facturas sorpresa a los seis meses. Sabrás exactamente por qué estás pagando antes de firmar nada.",
+      "cta": "Ver precios completos"
+    },
+    "faq": {
+      "eyebrow": "Preguntas",
+      "heading": "Antes de contactarme.",
+      "items": [
+        {
+          "question": "¿Qué te hace diferente de otras empresas de SEO en Denver?",
+          "answer": "La mayoría de las empresas y agencias de SEO en Denver te asignan un gerente de cuenta que transmite tus preguntas a quien esté haciendo el trabajo esa semana. Yo soy la persona que hace el trabajo: auditorías, estrategia, redacción, correcciones técnicas, todo. No pagas por capas de gastos generales de agencia, y no eres una cuenta más entre cientos."
+        },
+        {
+          "question": "¿Solo trabajas con negocios en Denver?",
+          "answer": "Denver y el Front Range son mi enfoque, ya que el conocimiento del mercado local es lo que hace que el SEO local funcione. Sí tomo proyectos de diseño web fuera del área caso por caso, pero los clientes de SEO deben ser locales para que la estrategia tenga sentido."
+        },
+        {
+          "question": "¿Qué te hace realmente diferente de una agencia típica?",
+          "answer": "Sin gerentes de cuenta, sin junior, sin subcontratación. Cada llamada estratégica, cada decisión de diseño y cada cambio de SEO lo manejo yo directamente, la persona con diez años de experiencia, no quien esté disponible esa semana."
+        },
+        {
+          "question": "¿Qué tan rápido puedo tener un sitio web nuevo en línea?",
+          "answer": "La mayoría de los proyectos de diseño web se lanzan en 3 a 6 semanas dependiendo del alcance. Obtendrás un cronograma específico en nuestra primera llamada, una vez que entienda lo que realmente necesitas."
+        },
+        {
+          "question": "Ya tengo un sitio web. ¿Aún necesito SEO?",
+          "answer": "Si tu sitio no está posicionando para las búsquedas que tus clientes realmente usan, sí. Un sitio que se ve bien pero que nadie encuentra en Google no está cumpliendo su función. Puedo auditar tu sitio actual y decirte honestamente si el SEO o un rediseño tiene más sentido."
+        },
+        {
+          "question": "¿Esto me ayudará a posicionarme en resultados de búsqueda con IA (ChatGPT, AI Overviews de Google, etc.)?",
+          "answer": "No puedo garantizar posiciones específicas, ni en búsquedas con IA ni en resultados normales de Google. Cualquiera que garantice eso no está siendo honesto contigo. Lo que sí puedo decirte es que escribo contenido que vale la pena leer, para que tanto los motores de búsqueda como los sistemas de IA lo reconozcan como genuinamente útil.\n\nLos sistemas de IA como AI Overviews de Google, ChatGPT y Bing toman contenido que demuestra experiencia real, no páginas saturadas de palabras clave. Eso significa estructurar tu sitio alrededor de lo que realmente haces, usando señales claras (quién eres, para qué estás calificado, los problemas específicos que resuelves), y construyendo autoridad con pruebas reales, no trucos.\n\nEn el lado técnico, implemento schema markup para que los motores de búsqueda y los sistemas de IA entiendan quién eres y qué hace tu negocio. No existe un \"truco de optimización para ChatGPT\". Construyo visibilidad a través de contenido que realmente vale la pena citar."
+        },
+        {
+          "question": "¿Cuántas páginas tendrá mi sitio web?",
+          "answer": "Depende de cuántos servicios distintos ofrezcas, no de un número fijo. Si tu negocio hace tres cosas genuinamente diferentes, las personas que buscan cada una quieren respuestas diferentes, así que cada una obtiene su propia página en lugar de una sola página tratando de cubrirlo todo.\n\nUna construcción típica incluye una página de inicio, una página de nosotros, una vista general de servicios, páginas individuales para cada servicio principal, y una página de contacto. La estructura está construida para crecer. A medida que aprendemos qué buscan realmente tus clientes, agregamos páginas. No relleno un sitio con páginas que nadie necesita solo para llegar a un número."
+        },
+        {
+          "question": "¿Qué estrategia de SEO usas realmente?",
+          "answer": "SEO centrado en las personas. Mapeo tu contenido según cómo buscan realmente tus clientes, no según una lista de palabras clave individuales. Nadie busca una sola palabra como \"plomero\". Buscan frases ligadas a un problema real que están tratando de resolver.\n\nCada página principal se enfoca en algunos temas prioritarios que coinciden con lo que tus clientes realmente están tratando de resolver cuando llegan a esa página. Si tienes tu propia investigación, una lista de un grupo de la industria, o ideas de tu propia experiencia con clientes, envíamelas. Eso es información valiosa y la incorporaré a la estructura del sitio. No voy a rellenar esos términos en el texto, voy a construir contenido genuino alrededor de lo que realmente significan, porque eso es lo que posiciona a largo plazo y lo que convierte a un visitante en cliente."
+        },
+        {
+          "question": "¿Cómo decides qué términos de búsqueda perseguir, y cuántos puedes cubrir realmente?",
+          "answer": "La prioridad se reduce a tres cosas: tus servicios principales, cómo buscan realmente tus clientes, y la profundidad del contenido, es decir, calidad sobre cantidad.\n\nEn las primeras 6-8 semanas, típicamente me enfoco en 8-10 áreas temáticas principales en tus páginas centrales. Eso no es un intento de posicionar para 50 palabras clave a la vez. Se trata de establecer autoridad real en lo que realmente haces.\n\nDespués del lanzamiento, el contenido continuo extiende esa cobertura según las consultas que realmente estás recibiendo y lo que está cambiando en tu industria.\n\nCronograma aproximado: a los 3 meses, tus páginas principales deberían estar indexadas y posicionando para el nombre de tu negocio más tus términos de servicio principales. A los 6 meses, deberías empezar a ver tráfico para búsquedas más específicas. A los 12 meses, deberías tener visibilidad real para las búsquedas más amplias en tu área de servicio. Estos son patrones generales, no garantías. Los resultados varían según la industria y la competencia."
+        },
+        {
+          "question": "¿El SEO es parte de la construcción del sitio, o empieza por separado?",
+          "answer": "El SEO no es una fase que agrego después de construir el sitio, está integrado en la construcción misma. La velocidad del sitio, la optimización móvil, el código limpio, la estructura de URLs, la jerarquía de encabezados, los enlaces internos, y el schema markup básico son todos parte de la construcción, no un extra.\n\nEn las primeras 6-8 semanas: base técnica de SEO, contenido de páginas principales, enlaces internos, y datos estructurados para que los motores de búsqueda entiendan quién eres.\n\nDespués del lanzamiento: estrategia de contenido continua, gestión de backlinks, y revisiones trimestrales del rendimiento de cada página. Tendremos llamadas mensuales para revisar qué está funcionando, y me pondré en contacto directamente si algo necesita tu aporte entre medio."
+        },
+        {
+          "question": "¿Quién escribe el contenido, y quién es responsable de qué?",
+          "answer": "Yo escribo todo el contenido inicial. Tú lo revisas para verificar precisión y asegurarte de que suene como tú. Yo manejo toda la implementación técnica. Después del lanzamiento, establecemos juntos un ritmo para contenido nuevo y decidimos cuándo expandirnos a nuevos temas según lo que realmente esté generando consultas."
+        },
+        {
+          "question": "¿Construyes backlinks? ¿Cómo?",
+          "answer": "Sí, la gestión de backlinks está incluida en el plan de SEO de $2,000/mes. Es contacto orgánico, es decir, contacto manualmente a dueños de sitios reales y consigo enlaces editoriales genuinos, no comprados.\n\nLas propias directrices de Google prohíben comprar backlinks. Cualquier agencia que te venda un paquete de enlaces a precio fijo, especialmente las que destacan métricas infladas como \"DA 90+\", te está vendiendo algo que puede penalizar tu sitio, no algo que lo ayude. El contacto real es más lento, pero es la versión que no pone en riesgo tu sitio."
+        }
+      ]
+    },
+    "cta": "¿Listo para que te encuentren en Denver?",
+    "clientLogos": {
+      "heading": "La confianza de empresas a nivel nacional"
+    }
+  },
+  "pricing": {
+    "metaTitle": "Precios",
+    "metaDescription": "Precios transparentes de diseño web y SEO de {name}, con sede en {city}.",
+    "heading": "Precios directos, sin retenedores inflados.",
+    "subhead": "Cada proyecto se ajusta a lo que tu negocio realmente necesita. Estos paquetes son un punto de partida. Agenda una llamada para una cotización exacta.",
+    "faq": {
+      "eyebrow": "Preguntas comunes",
+      "heading": "Sobre los precios.",
+      "items": [
+        {
+          "question": "¿Estos precios son fijos?",
+          "answer": "Son un punto de partida. Cada negocio es diferente, así que el precio final depende del alcance: número de páginas, características, o qué tan competitivo es tu mercado para SEO. Siempre recibirás una cotización clara antes de empezar."
+        },
+        {
+          "question": "¿Hay un contrato para SEO?",
+          "answer": "El SEO es mes a mes, sin compromiso a largo plazo. Prefiero ganarme el trabajo cada mes en lugar de atraparte en un contrato."
+        },
+        {
+          "question": "¿Qué no está incluido en los paquetes base?",
+          "answer": "La gestión de anuncios pagados, fotografía o video profesional, y costos de terceros como plugins premium o licencias de stock se facturan por separado si es necesario."
+        },
+        {
+          "question": "¿Ofreces planes de pago?",
+          "answer": "Sí, para proyectos de diseño web, normalmente divididos en un depósito y pagos por hitos. Podemos hablar sobre qué funciona para ti en una llamada."
+        }
+      ]
+    },
+    "cta": "¿Quieres una cotización exacta para tu proyecto?",
+    "plans": {
+      "webDesign": {
+        "name": "Diseño Web",
+        "description": "Un sitio web personalizado y de carga rápida, diseñado y desarrollado desde cero para tu negocio.",
+        "ctaLabel": "Hacer el Primer Pago",
+        "features": [
+          "Diseño y desarrollo personalizado",
+          "Construcción rápida y adaptada a móviles",
+          "Base de SEO técnico y en la página",
+          "Configuración de Analytics y Search Console",
+          "Soporte de lanzamiento y capacitación"
+        ]
+      },
+      "seo": {
+        "name": "SEO",
+        "description": "SEO técnico continuo, optimización de búsqueda local y estrategia de contenido, mes a mes.",
+        "ctaLabel": "Suscribirse al SEO Mensual",
+        "features": [
+          "Auditoría y corrección técnica de SEO",
+          "SEO local y optimización de Google Business",
+          "Optimización en la página",
+          "Estrategia de contenido",
+          "Reportes mensuales, en lenguaje sencillo"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Lo que dicen los clientes",
+    "heading": "Reseñas reales, no citas genéricas.",
+    "disclosure": "Estas son reseñas textuales de Google de clientes reales (en su idioma original, inglés). Algunas mencionan Latino Web Studio, el nombre bajo el cual operaba este mismo trabajo antes de lanzar Precise Wolf Digital.",
+    "readMore": "Leer más",
+    "showLess": "Mostrar menos"
+  },
+  "footer": {
+    "sitemap": "Mapa del sitio",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "copyright": "© {year} {name}. Todos los derechos reservados.",
+    "builtIn": "Diseñado y creado en {city}."
+  },
+  "caseStudyPost": {
+    "backToCaseStudies": "Volver a casos de éxito",
+    "updated": "(actualizado el {date})",
+    "cta": "¿Listo para poner esto en práctica?",
+    "notFound": "Caso de éxito no encontrado",
+    "onThisPage": "En esta página",
+    "authorRole": "Fundador, Precise Wolf Digital",
+    "authorBio": "Diez años de experiencia práctica en diseño web y SEO, sin gerentes de cuenta, sin subcontratación.",
+    "shareArticle": "Comparte este caso de éxito"
+  }
+}

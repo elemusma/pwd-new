@@ -1,0 +1,718 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "webDesign": "Web Design",
+    "seo": "SEO",
+    "portfolio": "Portfolio",
+    "caseStudies": "Case Studies",
+    "pricing": "Pricing",
+    "resources": "Resources",
+    "blog": "Blog",
+    "podcast": "Podcast",
+    "whitePaper": "White Paper",
+    "contact": "Contact",
+    "calendar": "Calendar",
+    "bookACall": "Book a call"
+  },
+  "general": {
+    "metaTitle": "Web Design & SEO in Denver, CO",
+    "tagline": "Web design & SEO for Denver businesses that want to be found.",
+    "bookFreeCall": "Book a free strategy call",
+    "orCall": "Or call {phone}",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "getStarted": "Get started",
+    "payNow": "Already know what you need? Pay now",
+    "googleReviews": "{count} Google Reviews",
+    "pageOf": "Page {current} of {total}"
+  },
+  "about": {
+    "metaTitle": "About",
+    "metaDescription": "Meet the person behind {name}: {years} years in web design and SEO, {yearsInBusiness} years running an independent studio in Denver, CO.",
+    "title": "About Me",
+    "heroHeading": "Ten years in the industry. {yearsInBusiness} years doing it my way.",
+    "intro1": "I'm the founder, and the entire team, behind {name}. For ten years I've designed websites and optimized them for search, first inside agencies and in-house teams, and for the last {yearsInBusiness} years on my own, working directly with small and mid-sized businesses in {city}.",
+    "intro2": "I started this studio because I kept seeing the same problem: business owners paying agency prices for junior-level work, filtered through account managers who couldn't answer a technical question if their job depended on it. So I cut out the middle layer. When you work with {shortName}, you work with someone who's spent a decade doing exactly this. Nothing outsourced, nothing handed off.",
+    "intro3": "That means fewer clients at any given time, more attention on each one, and a website and SEO strategy that actually reflects the business it's built for.",
+    "atAGlance": "At a glance",
+    "glance": {
+      "experience": "Designing & optimizing websites",
+      "running": "Running {name}",
+      "personally": "Of the work done by me, personally",
+      "basedHere": "Based here, focused on local businesses"
+    },
+    "values": {
+      "eyebrow": "How I work",
+      "heading": "The principles behind every project.",
+      "items": [
+        {
+          "title": "Direct communication",
+          "description": "You talk to the person doing the work. No account managers relaying messages, no waiting on a chain of approvals."
+        },
+        {
+          "title": "Craft over templates",
+          "description": "Every site is built to fit the business it represents, not stretched over a generic theme and called custom."
+        },
+        {
+          "title": "SEO grounded in data",
+          "description": "Rankings decisions are backed by search data and technical audits, not guesswork or recycled checklists."
+        },
+        {
+          "title": "Honest pricing",
+          "description": "Clear scopes and clear numbers upfront. No padded retainers to cover an agency's overhead."
+        },
+        {
+          "title": "Prove it before you pay",
+          "description": "Most new clients start with a free homepage mockup or a quick site audit, so you can judge the work before spending anything."
+        },
+        {
+          "title": "Plays well with your team",
+          "description": "Already have a designer or marketing person you trust? I'll work alongside them instead of replacing them."
+        }
+      ]
+    },
+    "timeline": {
+      "eyebrow": "The path here",
+      "heading": "A decade of experience, distilled into one studio.",
+      "items": [
+        {
+          "year": "10 years ago",
+          "title": "Started building websites",
+          "description": "Cut my teeth designing and developing sites, learning what actually makes a page fast, usable, and easy to maintain."
+        },
+        {
+          "year": "Since then",
+          "title": "Specialized in SEO",
+          "description": "Spent years going deep on technical SEO, local search, and content strategy: the parts that decide whether a good site actually gets found."
+        },
+        {
+          "year": "{yearsInBusiness} years ago",
+          "title": "Launched {name}",
+          "description": "Went independent to work directly with business owners in Denver, without the overhead and hand-offs of a traditional agency."
+        },
+        {
+          "year": "Today",
+          "title": "One studio, every client",
+          "description": "Every project, design, build, or SEO, gets the same person and the same standard of work."
+        }
+      ]
+    },
+    "cta": "Want to work directly with the person doing the work?"
+  },
+  "services": {
+    "metaTitle": "Services",
+    "metaDescription": "Web design and SEO services for businesses in {city}, handled personally by {name}.",
+    "heading": "Websites that rank and convert.",
+    "subhead": "Your website ranks on Google and turns that traffic into paying customers.",
+    "cards": {
+      "webDesign": {
+        "title": "Web Design",
+        "description": "Custom-built, fast-loading websites designed to convert visitors into customers, no page-builder templates.",
+        "bullets": [
+          "Custom design & build",
+          "Mobile-first & fast",
+          "Built with SEO foundations in place"
+        ],
+        "explore": "Explore web design"
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Technical SEO, local search optimization, and content strategy to get Denver businesses found on Google.",
+        "bullets": [
+          "Technical SEO audits",
+          "Local & Google Business optimization",
+          "Ongoing content & rankings strategy"
+        ],
+        "explore": "Explore SEO"
+      }
+    },
+    "whoIWorkWith": {
+      "eyebrow": "Who I work with",
+      "heading": "Real Denver businesses, not a niche.",
+      "intro": "Past clients span a wide range of industries. What they have in common is wanting direct access to the person doing the work, not an account manager.",
+      "industries": [
+        "Attorneys & legal professionals",
+        "Medical & wellness practices",
+        "Home services & contractors",
+        "Consultants & forensic experts",
+        "Local retail & specialty trades",
+        "Small business owners, generally"
+      ]
+    },
+    "faq": {
+      "eyebrow": "Common questions",
+      "heading": "Before you reach out.",
+      "items": [
+        {
+          "question": "Do you handle both web design and SEO for the same project?",
+          "answer": "Yes. Most clients start with one or the other and add the second once they see results. Sites I design are built with SEO fundamentals from day one, which makes future optimization far more effective."
+        },
+        {
+          "question": "Do I need a new website before I can start SEO?",
+          "answer": "Not necessarily. If your current site is reasonably solid, we can often improve rankings without a rebuild. I'll tell you honestly if a redesign would actually move the needle before recommending one."
+        },
+        {
+          "question": "How long until I see SEO results?",
+          "answer": "Local SEO improvements (Google Business Profile, citations, on-page fixes) can show movement within weeks. Competitive organic rankings typically take 3–6 months of consistent work."
+        },
+        {
+          "question": "Do you work with businesses outside Denver?",
+          "answer": "Denver and the surrounding Front Range are my focus, since local market knowledge matters for SEO. I do take on web design projects further out on a case-by-case basis."
+        }
+      ]
+    },
+    "cta": "Not sure which one you need?",
+    "ctaButton": "Let's talk it through"
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio",
+    "metaDescription": "Recent web design and SEO work for businesses in {city} and beyond.",
+    "heading": "Web Design Portfolio",
+    "subhead": "Hover over any project below to scroll through the full page.",
+    "cta": "Want to see your business here next?",
+    "viewWebsite": "View Website",
+    "comingSoon": "Coming soon"
+  },
+  "caseStudiesPage": {
+    "metaTitle": "Case Studies",
+    "metaDescription": "Real results from real clients of {name}.",
+    "heading": "SEO Case Studies",
+    "subhead": "Detailed write-ups for individual projects are being added as they're ready. In the meantime, here's what real clients say after working together.",
+    "cta": "Want results like these for your business?",
+    "empty": "No case studies to show right now. Check back soon."
+  },
+  "webDesignPage": {
+    "metaTitle": "Denver Web Design Company",
+    "metaDescription": "Custom, fast-loading website design for businesses in {city}. Built by hand, not templated out.",
+    "heading": "Denver web design built to load fast and win customers.",
+    "subhead": "Every site is designed and built by hand for the business it represents. Fast, clear, and built on a technical foundation that gives your SEO a head start.",
+    "deliverables": {
+      "eyebrow": "What's included",
+      "heading": "Everything a modern business site needs.",
+      "items": [
+        {
+          "title": "Custom design",
+          "description": "A site designed around your business and customers, not a recycled theme with your logo swapped in."
+        },
+        {
+          "title": "Built for speed",
+          "description": "Lean, modern code that loads fast on every device. Speed affects both conversions and Google rankings."
+        },
+        {
+          "title": "Mobile-first",
+          "description": "Designed for the small screen first, since most of your traffic will come from a phone."
+        },
+        {
+          "title": "SEO-ready foundation",
+          "description": "Clean markup, proper heading structure, fast load times, and metadata set up correctly from launch."
+        },
+        {
+          "title": "Easy to update",
+          "description": "You'll be able to edit content yourself without needing to call me for every small change."
+        },
+        {
+          "title": "Launch support",
+          "description": "Domain, hosting, analytics, and a walkthrough so you're set up correctly from day one."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Process",
+      "heading": "From first call to launch day.",
+      "items": [
+        {
+          "title": "Discovery",
+          "description": "We talk through your business, your customers, and what the site needs to do."
+        },
+        {
+          "title": "Design",
+          "description": "I design the site around your content and goals, with rounds of feedback built in."
+        },
+        {
+          "title": "Build",
+          "description": "The design gets built into a fast, working site, tested across devices and browsers."
+        },
+        {
+          "title": "Launch",
+          "description": "Site goes live with analytics, basic SEO setup, and a walkthrough of how to manage it."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "heading": "Questions clients ask before starting.",
+      "items": [
+        {
+          "question": "How long does a website project take?",
+          "answer": "Most projects run 3–6 weeks from kickoff to launch, depending on scope and how quickly content and feedback come together."
+        },
+        {
+          "question": "What platform do you build on?",
+          "answer": "I choose the right tool for the job, usually a modern hand-built site for speed and flexibility, or a well-configured CMS if you need to publish content frequently yourself."
+        },
+        {
+          "question": "Will I be able to make changes after launch?",
+          "answer": "Yes. Every site is set up so you can edit text, images, and basic content without touching code. I'll walk you through it at launch."
+        },
+        {
+          "question": "Do you write the content too?",
+          "answer": "I can guide the structure and messaging, and edit what you provide. Full copywriting is available as an add-on if you'd rather I draft it from scratch."
+        }
+      ]
+    },
+    "cta": "Ready to talk about your website?"
+  },
+  "seoPage": {
+    "metaTitle": "Denver SEO Company | Local SEO Agency",
+    "metaDescription": "Technical SEO and local search optimization for businesses in {city}, built to get you found on Google.",
+    "heading": "Denver SEO that gets you found by customers already searching for you.",
+    "subhead": "Technical SEO, local search optimization, and content strategy built specifically for {city} businesses competing for real customers, not just traffic.",
+    "deliverables": {
+      "eyebrow": "What's included",
+      "heading": "A full SEO strategy, not a checklist.",
+      "items": [
+        {
+          "title": "Technical SEO audit",
+          "description": "A full review of site speed, crawlability, indexing, and structure to find what's holding rankings back."
+        },
+        {
+          "title": "Local SEO & Google Business",
+          "description": "Optimized Google Business Profile, local citations, and location pages built to win the map pack in Denver."
+        },
+        {
+          "title": "On-page optimization",
+          "description": "Titles, meta descriptions, headings, and internal linking structured around how customers actually search."
+        },
+        {
+          "title": "Content strategy",
+          "description": "A content plan built around real search demand, not just publishing blog posts for the sake of it."
+        },
+        {
+          "title": "Ongoing technical fixes",
+          "description": "Regular monitoring to catch crawl errors, broken links, and performance issues before they cost rankings."
+        },
+        {
+          "title": "Plain-English reporting",
+          "description": "Monthly updates on rankings, traffic, and what's next, no vanity metrics or jargon-filled dashboards."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Process",
+      "heading": "How rankings actually improve.",
+      "items": [
+        {
+          "title": "Audit",
+          "description": "A full technical and competitive audit to see where you stand and what's costing you rankings."
+        },
+        {
+          "title": "Strategy",
+          "description": "A prioritized plan targeting the fixes and opportunities with the biggest impact first."
+        },
+        {
+          "title": "Execute",
+          "description": "Technical fixes, on-page changes, and local SEO setup implemented directly."
+        },
+        {
+          "title": "Track & refine",
+          "description": "Ongoing monitoring and adjustments based on real ranking and traffic data."
+        }
+      ]
+    },
+    "approach": {
+      "heading": "How I actually approach SEO",
+      "paragraphs": [
+        "Most SEO pitches are vague on purpose, \"we'll boost your rankings\" sounds good and commits to nothing. Here's specifically what happens.",
+        "Every page is built around how your customers actually search, not a list of keywords. That means real topic mapping tied to your specific services, not generic content stuffed with search terms. In the first 6-8 weeks I typically establish 8-10 priority topic areas across your core pages. After that, ongoing content builds on what's actually generating inquiries.",
+        "I don't guarantee rankings. Nobody honestly can, in Google or in AI search results like ChatGPT and AI Overviews. What I do guarantee is that the content is built to be genuinely useful, which is what both search engines and AI systems actually reward.",
+        "Expect page indexing and name-plus-service visibility by 3 months, traffic on more specific search terms by 6 months, and real visibility in your service area by 12 months. These are typical patterns, not promises, every industry and market moves differently.",
+        "Backlink outreach is included in the $2,000/month plan. It's organic, meaning I manually reach out to real site owners and earn genuine editorial links. Google's guidelines prohibit buying backlinks, so this is the version that actually holds up instead of putting your site at risk."
+      ]
+    },
+    "specialty": {
+      "eyebrow": "A focus within SEO",
+      "heading": "SEO for Denver contractors and home service businesses.",
+      "body": "Contractor and home services SEO rewards businesses that show up for the exact jobs people search for: roofing, plumbing, HVAC, remodeling, general construction. If you run a home services or contracting business in Denver, this is where I spend a lot of my time, service-area pages, project galleries that actually rank, and a Google Business Profile built around how homeowners search when something breaks.",
+      "items": [
+        "Local SEO for contractors",
+        "Home services SEO",
+        "SEO for construction companies",
+        "Service-area page structure",
+        "Google Business Profile for contractors"
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "heading": "Questions clients ask before starting.",
+      "items": [
+        {
+          "question": "What makes you different from other Denver SEO companies?",
+          "answer": "Most Denver SEO companies and agencies hand you off to an account manager who relays your questions to whoever's actually doing the work that week. I am the person doing the work: audits, strategy, writing, technical fixes, all of it. You're not paying for layers of agency overhead, and you're not one account among hundreds."
+        },
+        {
+          "question": "How is local SEO different from regular SEO?",
+          "answer": "Local SEO focuses on ranking for searches with local intent: 'near me' searches, the Google Map Pack, and location-based keywords. It relies heavily on your Google Business Profile, citations, and location-specific content, on top of standard technical and on-page SEO."
+        },
+        {
+          "question": "Do you guarantee first-page rankings?",
+          "answer": "No, and anyone who guarantees specific rankings is being dishonest with you. Google's algorithm isn't something any agency controls. What I can guarantee is a thorough, technically sound strategy and transparent reporting on real progress."
+        },
+        {
+          "question": "How much does SEO cost per month?",
+          "answer": "It depends on your market and how competitive your keywords are. See the Pricing page for typical ranges, or book a call and I'll give you a straight answer based on your situation."
+        },
+        {
+          "question": "Can you do SEO on my current website?",
+          "answer": "In most cases, yes. I'll audit your current site first and let you know if there are technical limitations worth addressing before we start."
+        },
+        {
+          "question": "Will this get me ranked in AI search results (ChatGPT, Google AI Overviews, etc.)?",
+          "answer": "I can't guarantee specific rankings, in AI search or regular Google results. Anyone who guarantees that isn't being straight with you. What I can tell you is that I write content worth reading, so both search engines and AI systems recognize it as genuinely useful.\n\nAI systems like Google's AI Overviews, ChatGPT, and Bing pull from content that demonstrates real expertise, not keyword-stuffed pages. That means structuring your site around what you actually do, using clear signals (who you are, what you're qualified to do, the specific problems you solve), and building authority through real proof, not tricks.\n\nOn the technical side, I implement schema markup so search engines and AI systems understand who you are and what your business does. There's no such thing as a \"ChatGPT optimization trick.\" I build visibility through content that's actually worth citing."
+        },
+        {
+          "question": "How many pages will my website have?",
+          "answer": "It depends on how many distinct services you offer, not a fixed number. If your business does three genuinely different things, the people searching for each of those want different answers, so each gets its own page instead of one page trying to cover everything.\n\nA typical build includes a home page, an about page, a services overview, individual pages for each core service, and a contact page. The structure is built to grow. As we learn what your customers actually search for, we add pages. I don't pad a site with pages nobody needs just to hit a number."
+        },
+        {
+          "question": "What SEO strategy do you actually use?",
+          "answer": "People-first SEO. I map your content to how your customers actually search, not to a list of individual keywords. Nobody searches a single word like \"plumber.\" They search phrases tied to a real problem they're trying to solve.\n\nEach core page targets a few priority topics that match what your customers are actually trying to figure out when they land on that page. If you've got your own research, a list from an industry group, or ideas from your own experience with customers, send it over. That's valuable data and I'll build it into the site structure. I won't stuff those terms into the copy, I'll build genuine content around what they actually mean, because that's what ranks long-term and what turns a visitor into a customer."
+        },
+        {
+          "question": "How do you decide which search terms to go after, and how many can you realistically cover?",
+          "answer": "Priority comes down to three things: your core services, how your customers actually search, and content depth, meaning quality over quantity.\n\nIn the first 6-8 weeks, I typically target 8-10 primary topic areas across your core pages. That's not an attempt to rank for 50 keywords at once. It's about establishing real authority in what you actually do.\n\nAfter launch, ongoing content extends that coverage based on the inquiries you're actually getting and what's changing in your industry.\n\nRough timeline: by 3 months, your core pages should be indexed and ranking for your business name plus your core service terms. By 6 months, you should start seeing traffic for more specific searches. By 12 months, you should have real visibility for the broader searches in your service area. These are general patterns, not guarantees. Results vary by industry and competition."
+        },
+        {
+          "question": "Is SEO part of the website build, or does it start separately?",
+          "answer": "SEO isn't a phase I bolt on after the site is built, it's baked into the build itself. Site speed, mobile optimization, clean code, URL structure, heading hierarchy, internal linking, and basic schema markup are all part of the build, not an add-on.\n\nIn the first 6-8 weeks: technical SEO foundation, core page content, internal linking, and structured data so search engines understand who you are.\n\nAfter launch: ongoing content strategy, backlink outreach, and quarterly reviews of every page's performance. We'll have monthly calls to go over what's working, and I'll reach out directly if something needs your input in between."
+        },
+        {
+          "question": "Who writes the content, and who's responsible for what?",
+          "answer": "I write all the initial content. You review it for accuracy and make sure it sounds like you. I handle all the technical implementation. After launch, we set a cadence for new content together and decide when to expand into new topics based on what's actually generating inquiries."
+        },
+        {
+          "question": "Do you build backlinks? How?",
+          "answer": "Yes, backlink outreach is included in the $2,000/month SEO plan. It's organic outreach, meaning I manually reach out to real website owners and earn genuine, editorial links, not purchased ones.\n\nGoogle's own guidelines prohibit buying backlinks. Any agency selling you a package of links at a flat rate, especially the ones that lead with inflated metrics like \"DA 90+,\" is selling you something that can get your site penalized, not something that helps it. Real outreach is slower, but it's the version that doesn't put your site at risk."
+        }
+      ]
+    },
+    "cta": "Ready to rank higher in Denver?"
+  },
+  "contact": {
+    "metaTitle": "Contact",
+    "metaDescription": "Get in touch with {name} in {city} for web design or SEO help.",
+    "heading": "Let's talk about your project.",
+    "subhead": "Send a message below, or skip straight to booking a free strategy call if you already know you want to talk.",
+    "details": {
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "optional": "(optional)",
+      "message": "What do you need help with?",
+      "send": "Send message",
+      "sending": "Sending",
+      "successTitle": "Message sent.",
+      "successBody": "Thanks for reaching out. I'll get back to you within one business day.",
+      "genericError": "Something went wrong. Please try again."
+    }
+  },
+  "thankYou": {
+    "metaTitle": "Message Sent",
+    "heading": "Thank You!",
+    "body": "Your message has been sent successfully. I will get back to you soon.",
+    "cta": "Book a free strategy call",
+    "backHome": "Back to home",
+    "listenOn": "Listen to the podcast on:",
+    "urgentQuestions": "Have urgent questions?"
+  },
+  "ctaForm": {
+    "heading": "Improve Your Online Presence, Name Recognition & Branding",
+    "subhead": "If you need help getting more clients send a message to help you get started with your website or start an SEO strategy that gets you ranking in Google and AI resulting in more phone calls, texts and emails.",
+    "submit": "Get More Clients and Get Found"
+  },
+  "calendar": {
+    "metaTitle": "Calendar",
+    "metaDescription": "Book a free strategy call with {name}.",
+    "heading": "Book a free strategy call.",
+    "subhead": "30 minutes, no pressure. We'll talk through your website or SEO goals and whether {shortName} is the right fit."
+  },
+  "blogPage": {
+    "metaTitle": "Blog",
+    "metaDescription": "Web design and SEO insights from {name}, based in {city}.",
+    "title": "Blog",
+    "heading": "Web design and SEO, explained plainly.",
+    "empty": "No posts to show right now. Check back soon.",
+    "cta": "Have a project in mind?"
+  },
+  "podcastPage": {
+    "metaTitle": "Podcast",
+    "metaDescription": "Conversations on web design, SEO, and running a business, hosted by {name}.",
+    "heading": "The podcast.",
+    "subhead": "Conversations with attorneys. More episodes coming. Soon expanding to other industries.",
+    "empty": "No episodes to show right now. Check back soon.",
+    "cta": "Want to be a guest on the podcast?",
+    "backToPodcast": "Back to podcast",
+    "notFound": "Episode not found",
+    "listenOn": "Listen on",
+    "shareEpisode": "Share this episode",
+    "whitePaperCta": {
+      "imageAlt": "Get More Cases and Get Found by Attorneys - free white paper",
+      "body": "Free white paper on how attorneys search for expert witnesses online.",
+      "button": "Download White Paper"
+    }
+  },
+  "blogPost": {
+    "backToBlog": "Back to blog",
+    "updated": "(updated {date})",
+    "cta": "Ready to put this into practice?",
+    "notFound": "Post not found",
+    "onThisPage": "On this page",
+    "authorRole": "Founder, Precise Wolf Digital",
+    "authorBio": "Ten years of hands-on web design and SEO experience. When I'm not working, I like to spend time working out and walking with my dog.",
+    "shareArticle": "Share this article",
+    "whitePaperCta": {
+      "imageAlt": "Get More Cases and Get Found by Attorneys - free white paper",
+      "body": "Free white paper on how attorneys search for expert witnesses online.",
+      "button": "Download White Paper"
+    }
+  },
+  "whitePaper": {
+    "metaTitle": "Free White Paper: Get More Cases and Get Found by Attorneys",
+    "metaDescription": "Download our free white paper on how expert witnesses can get found by attorneys and win more cases.",
+    "heading": "Get More Cases and Get Found by Attorneys",
+    "subhead": "A Free white paper on how attorneys search for expert witnesses online, and what your website and content need to show up when it matters.",
+    "imageAlt": "Get More Cases and Get Found by Attorneys - free white paper",
+    "form": {
+      "email": "Email address",
+      "submit": "Download White Paper",
+      "submitting": "Sending",
+      "genericError": "Something went wrong. Please try again."
+    },
+    "thankYou": {
+      "metaTitle": "White Paper Requested",
+      "heading": "Congrats!",
+      "body": "You'll receive the white paper by email shortly. That's the first step toward getting more cases and getting found by attorneys.",
+      "cta": "Book a free strategy call",
+      "backToBlog": "Back to blog"
+    }
+  },
+  "home": {
+    "heroLine1": "Websites that look sharp",
+    "heroLine2": "and <accent>rank</accent> sharper.",
+    "heroSubhead": "Get more leads with a website that not only look great but also rank well in Google and AI.",
+    "viewServices": "View services",
+    "stats": {
+      "totalClicks": "Total clicks",
+      "totalImpressions": "Total impressions",
+      "experience": "Years of experience",
+      "websitesBuilt": "Websites built"
+    },
+    "whatIDo": {
+      "eyebrow": "What I do",
+      "heading": "Built to get found. Designed to convert.",
+      "webDesign": {
+        "title": "Web Design",
+        "description": "Fast, modern, conversion-focused websites built by hand, not templated out. Designed to load quickly and turn visitors into customers."
+      },
+      "seo": {
+        "title": "SEO",
+        "description": "Technical SEO, local search optimization, and content strategy built to get Denver businesses found on Google, and keep them there.",
+        "trustLine": "No guaranteed rankings, no keyword-stuffed pages, no purchased backlinks. SEO that's built to actually work, not to sound good in a pitch."
+      }
+    },
+    "whyUs": {
+      "eyebrow": "Why work with me",
+      "heading": "Real access. Real pricing. Real results.",
+      "items": {
+        "directAccess": {
+          "title": "Direct access, not a hand-off",
+          "description": "Every strategy call, design decision, and SEO change goes through the person actually doing the work, ten years of hands-on experience, no account managers relaying messages."
+        },
+        "aiSearch": {
+          "title": "Built for Google and AI search",
+          "description": "Schema markup, clear expertise signals, and content structured to get cited in ChatGPT and Google AI Overviews, not just ranked on page one."
+        },
+        "pricing": {
+          "title": "Transparent, flat pricing",
+          "description": "Websites start at $5,000. SEO starts at $2,000 a month. No padded retainers, no mystery invoices six months in."
+        },
+        "dataBacked": {
+          "title": "SEO grounded in data",
+          "description": "Rankings decisions are backed by search data and technical audits, not guesswork or recycled checklists."
+        },
+        "noContracts": {
+          "title": "No long-term contracts",
+          "description": "SEO is month-to-month. I'd rather earn the work every month than trap you in a contract."
+        },
+        "reviews": {
+          "title": "73 five-star Google reviews",
+          "description": "Real client feedback from real projects, not stock testimonials."
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "heading": "A straightforward process, start to finish.",
+      "discover": {
+        "title": "Discover",
+        "description": "A real conversation about your business, your customers, and what's actually holding your site back."
+      },
+      "designBuild": {
+        "title": "Design & Build",
+        "description": "A custom site built for speed and clarity, no bloated page builders or recycled templates."
+      },
+      "optimize": {
+        "title": "Optimize",
+        "description": "On-page SEO, technical fixes, and local search setup so Denver customers can actually find you."
+      },
+      "grow": {
+        "title": "Grow",
+        "description": "Ongoing SEO and site improvements, tracked and reported in plain English, not marketing jargon."
+      }
+    },
+    "pricingTeaser": {
+      "heading": "No hidden line items. No vague quotes.",
+      "body": "Websites start at $5,000. SEO starts at $2,000 a month. That's it. No add-on packages, no mystery invoices six months in. You'll know exactly what you're paying for before you sign anything.",
+      "cta": "See full pricing"
+    },
+    "faq": {
+      "eyebrow": "SEO Questions?",
+      "heading": "I have answers.",
+      "items": [
+        {
+          "question": "What makes you different from other Denver SEO companies?",
+          "answer": "Most Denver SEO companies and agencies hand you off to an account manager who relays your questions to whoever's actually doing the work that week. I am the person doing the work: audits, strategy, writing, technical fixes, all of it. You're not paying for layers of agency overhead, and you're not one account among hundreds. If something is not working out, I will adjust rather than just say too bad and keep charging you."
+        },
+        {
+          "question": "Do you only work with businesses in Denver?",
+          "answer": "Denver is where I'm based but I do work with national clients for web design and SEO services."
+        },
+        {
+          "question": "How fast can I get a new website live?",
+          "answer": "Most web design projects launch in 6 weeks depending on scope. You'll get a specific timeline once we start working together."
+        },
+        {
+          "question": "I already have a website. Do I still need SEO?",
+          "answer": "If you're not getting leads from your website, yes. A website that nobody finds on Google isn't doing its job."
+        },
+        {
+          "question": "Will this get me ranked in AI search results (ChatGPT, Google AI Overviews, etc.)?",
+          "answer": "I can't guarantee specific rankings, in AI search or regular Google results. Google itself recommends to run away from people that guarantee results and rankings. What I can tell you is that I write content worth reading, so both search engines and AI systems recognize it as genuinely useful.\n\nAI systems like Google's AI Overviews, ChatGPT, and Bing pull from content that demonstrates real expertise, not keyword-stuffed pages. That means structuring your site around what you actually do, using clear signals (who you are, what you're qualified to do, the specific problems you solve), and building authority through real proof, not tricks.\n\nOn the technical side, I implement schema markup so search engines and AI systems understand who you are and what your business does. All the \"ChatGPT optimization trick.\" and LLM optimization buzz is people trying to sell you something.I build visibility through content that's actually worth citing."
+        },
+        {
+          "question": "How many pages will my website have?",
+          "answer": "It depends on how many distinct services you offer, not a fixed number. If your business does three genuinely different things, the people searching for each of those want different answers, so each gets its own page instead of one page trying to cover everything.\n\nA typical build includes a home page, an about page, a services overview, individual pages for each core service, and a contact page. The structure is built to grow. As we learn what your customers actually search for, we add pages. I don't pad a site with pages nobody needs just to hit a number."
+        },
+        {
+          "question": "What SEO strategy do you actually use?",
+          "answer": "People-first SEO. I map your content to how your customers actually search, not to a list of individual keywords. Nobody searches a single word like \"plumber.\" They search phrases tied to a real problem they're trying to solve.\n\nEach core page targets a few priority topics that match what your customers are actually trying to figure out when they land on that page. If you've got your own research, a list from an industry group, or ideas from your own experience with customers, send it over. That's valuable data and I'll build it into the site structure. I won't stuff those terms into the copy, I'll build genuine content around what they actually mean, because that's what ranks long-term and what turns a visitor into a customer."
+        },
+        {
+          "question": "How do you decide which search terms to go after, and how many can you realistically cover?",
+          "answer": "Priority comes down to three things: your core services, how your customers actually search, and content depth, meaning quality over quantity.\n\nIn the first 6-8 weeks, I typically target 8-10 primary topic areas across your core pages. That's not an attempt to rank for 50 keywords at once. It's about establishing real authority in what you actually do.\n\nAfter launch, ongoing content extends that coverage based on the inquiries you're actually getting and what's changing in your industry.\n\nRough timeline: by 3 months, your core pages should be indexed and ranking for your business name plus your core service terms. By 6 months, you should start seeing traffic for more specific searches. By 12 months, you should have real visibility for the broader searches in your service area. These are general patterns, not guarantees. Results vary by industry and competition."
+        },
+        {
+          "question": "Is SEO part of the website build, or does it start separately?",
+          "answer": "SEO isn't a phase I bolt on after the site is built, it's baked into the build itself. Site speed, mobile optimization, clean code, URL structure, heading hierarchy, internal linking, and basic schema markup are all part of the build, not an add-on.\n\nIn the first 6-8 weeks: technical SEO foundation, core page content, internal linking, and structured data so search engines understand who you are.\n\nAfter launch: ongoing content strategy, backlink outreach, and quarterly reviews of every page's performance. We'll have monthly calls to go over what's working, and I'll reach out directly if something needs your input in between."
+        },
+        {
+          "question": "Who writes the content, and who's responsible for what?",
+          "answer": "I write all the initial content. You review it for accuracy and make sure it sounds like you. I handle all the technical implementation. After launch, we set a cadence for new content together and decide when to expand into new topics based on what's actually generating inquiries."
+        },
+        {
+          "question": "Do you build backlinks? How?",
+          "answer": "Yes, backlink outreach is included in the $2,000/month SEO plan. It's organic outreach, meaning I manually reach out to real website owners and earn genuine, editorial links, not purchased ones.\n\nGoogle's own guidelines prohibit buying backlinks. Any agency selling you a package of links at a flat rate, especially the ones that lead with inflated metrics like \"DA 90+,\" is selling you something that can get your site penalized, not something that helps it. Real outreach is slower, but it's the version that doesn't put your site at risk."
+        }
+      ]
+    },
+    "cta": "Ready to get found in Denver?",
+    "clientLogos": {
+      "heading": "Trusted by Companies Nationwide"
+    }
+  },
+  "pricing": {
+    "metaTitle": "Pricing",
+    "metaDescription": "Transparent web design and SEO pricing from {name}, based in {city}.",
+    "heading": "Pricing",
+    "subhead": "Choose either a one-time website build or ongoing SEO (ongoing SEO includes website build for free).",
+    "faq": {
+      "eyebrow": "Common questions",
+      "heading": "About pricing.",
+      "items": [
+        {
+          "question": "Are these prices fixed?",
+          "answer": "They're a starting point. Every business is different, so final pricing depends on scope: number of pages, features, or how competitive your market is for SEO. You'll always get a clear quote before anything starts."
+        },
+        {
+          "question": "Is there a contract for SEO?",
+          "answer": "SEO is month-to-month with no long-term lock-in. I'd rather earn the work every month than trap you in a contract."
+        },
+        {
+          "question": "What's not included in the base packages?",
+          "answer": "Paid ad management, professional photography/videography, and third-party costs like premium plugins or stock licenses are billed separately if needed."
+        },
+        {
+          "question": "Do you offer payment plans?",
+          "answer": "Yes, for web design projects, typically split into a deposit and milestone payments. We can talk through what works for you on a call."
+        }
+      ]
+    },
+    "cta": "Want an exact quote for your project?",
+    "plans": {
+      "webDesign": {
+        "name": "Web Design",
+        "description": "A custom-built, fast-loading website designed and developed from scratch for your business.",
+        "ctaLabel": "Make First Payment",
+        "features": [
+          "Custom design & development",
+          "Mobile-first, fast-loading build",
+          "On-page & technical SEO foundation",
+          "Analytics & Search Console setup",
+          "Launch support & walkthrough"
+        ]
+      },
+      "seo": {
+        "name": "SEO",
+        "description": "Ongoing technical SEO, local search optimization, and content strategy, month to month.",
+        "ctaLabel": "Subscribe to Monthly SEO",
+        "features": [
+          "Technical SEO audit & fixes",
+          "Local SEO & Google Business optimization",
+          "On-page optimization",
+          "Content strategy",
+          "Monthly reporting, plain English"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "What clients say",
+    "heading": "Real reviews.",
+    "disclosure": "These are verbatim Google reviews from real clients. Some reference Latino Web Studio, the name I ran this same work under before rebranding to Precise Wolf Digital.",
+    "readMore": "Read more",
+    "showLess": "Show less"
+  },
+  "footer": {
+    "sitemap": "Sitemap",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "© {year} {name}. All rights reserved.",
+    "builtIn": "Designed & built in {city}."
+  },
+  "caseStudyPost": {
+    "backToCaseStudies": "Back to case studies",
+    "updated": "(updated {date})",
+    "cta": "Ready to put this into practice?",
+    "notFound": "Case study not found",
+    "onThisPage": "On this page",
+    "authorRole": "Founder, Precise Wolf Digital",
+    "authorBio": "Ten years of hands-on web design and SEO experience. When I'm not working, I like to spend time working out and walking with my dog.",
+    "shareArticle": "Share this case study"
+  }
+}
