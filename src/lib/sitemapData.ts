@@ -1,4 +1,3 @@
-import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
 import { routing } from "@/i18n/routing";
 import { CATEGORY, fetchAllPosts, type WPPost } from "@/lib/wordpress";
@@ -27,7 +26,7 @@ const STATIC_ROUTES = [
 // independently generated at request time, so /sitemap/1.xml (etc.) always
 // reflects whatever is currently published in WordPress — no manual updates
 // needed when new posts go live.
-const SITEMAP_IDS = {
+export const SITEMAP_IDS = {
   pages: 0,
   blogEn: 1,
   blogEs: 2,
@@ -37,9 +36,13 @@ const SITEMAP_IDS = {
   caseStudiesEs: 6,
 } as const;
 
-export async function generateSitemaps() {
-  return Object.values(SITEMAP_IDS).map((id) => ({ id }));
-}
+export type SitemapEntry = {
+  url: string;
+  lastModified: Date;
+  changeFrequency: "monthly";
+  priority: number;
+  alternates: { languages: Record<string, string> };
+};
 
 function localizedUrl(locale: string, path: string) {
   const prefix = locale === routing.defaultLocale ? "" : `/${locale}`;
@@ -78,7 +81,7 @@ function postAlternates(
   return { selfLocale, languages };
 }
 
-async function staticPagesSitemap(): Promise<MetadataRoute.Sitemap> {
+export async function staticPagesSitemap(): Promise<SitemapEntry[]> {
   return STATIC_ROUTES.flatMap((route) =>
     routing.locales.map((locale) => ({
       url: localizedUrl(locale, route),
@@ -92,7 +95,7 @@ async function staticPagesSitemap(): Promise<MetadataRoute.Sitemap> {
   );
 }
 
-async function postSitemap(section: Section, locale: "en" | "es"): Promise<MetadataRoute.Sitemap> {
+export async function postSitemap(section: Section, locale: "en" | "es"): Promise<SitemapEntry[]> {
   const path = SECTION_PATH[section];
   const categoryId = CATEGORY[section][locale];
   const otherLocale = locale === "en" ? "es" : "en";
@@ -119,12 +122,10 @@ async function postSitemap(section: Section, locale: "en" | "es"): Promise<Metad
   });
 }
 
-export default async function sitemap({ id }: { id: number }): Promise<MetadataRoute.Sitemap> {
-  // Next.js's metadata route loader passes `id` through as a string (parsed
-  // from the "/sitemap/<id>.xml" URL segment) even though the type says
-  // number, so compare against the numeric-string form rather than the raw
-  // SITEMAP_IDS values.
-  switch (Number(id)) {
+export async function sitemapForId(id: number): Promise<SitemapEntry[] | null> {
+  switch (id) {
+    case SITEMAP_IDS.pages:
+      return staticPagesSitemap();
     case SITEMAP_IDS.blogEn:
       return postSitemap("blog", "en");
     case SITEMAP_IDS.blogEs:
@@ -138,6 +139,32 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     case SITEMAP_IDS.caseStudiesEs:
       return postSitemap("caseStudies", "es");
     default:
-      return staticPagesSitemap();
+      return null;
   }
+}
+
+function escapeXml(value: string) {
+  return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+export function renderUrlsetXml(entries: SitemapEntry[]): string {
+  const urls = entries
+    .map((entry) => {
+      const alternates = Object.entries(entry.alternates.languages)
+        .map(([hreflang, href]) => `<xhtml:link rel="alternate" hreflang="${hreflang}" href="${escapeXml(href)}" />`)
+        .join("\n");
+      return `<url>
+<loc>${escapeXml(entry.url)}</loc>
+${alternates}
+<lastmod>${entry.lastModified.toISOString()}</lastmod>
+<changefreq>${entry.changeFrequency}</changefreq>
+<priority>${entry.priority}</priority>
+</url>`;
+    })
+    .join("\n");
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+${urls}
+</urlset>`;
 }
