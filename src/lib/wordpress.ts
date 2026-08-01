@@ -44,10 +44,14 @@ export interface PostListResult {
 // identical results for lang=en and lang=es on this install), so filtering by
 // the per-locale category ID from CATEGORY above is what actually scopes
 // results to a language.
-export async function fetchPosts(categoryId: number, page = 1, perPage = 9): Promise<PostListResult> {
+export async function fetchPosts(categoryId: number, page = 1, perPage = 9, search?: string): Promise<PostListResult> {
   try {
+    // orderby defaults to date, which buries strong title matches under
+    // recent-but-only-tangentially-related posts. relevance only applies
+    // (and is only valid) when a search term is present.
+    const searchParam = search ? `&search=${encodeURIComponent(search)}&orderby=relevance` : "";
     const res = await fetch(
-      `${WP_BASE_URL}/posts?categories=${categoryId}&page=${page}&per_page=${perPage}&_embed`,
+      `${WP_BASE_URL}/posts?categories=${categoryId}&page=${page}&per_page=${perPage}&_embed${searchParam}`,
       { next: { revalidate: 60 } }
     );
     if (!res.ok) return { posts: [], totalPages: 0 };

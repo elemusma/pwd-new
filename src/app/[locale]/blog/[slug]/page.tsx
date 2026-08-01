@@ -70,7 +70,10 @@ export default async function BlogPostPage({
   const otherLocale = routing.locales.find((l) => l !== locale);
   const otherLocalePostId = otherLocale ? post.translations?.[otherLocale] : undefined;
   const altPost = otherLocalePostId && otherLocalePostId !== post.id ? await fetchPostById(otherLocalePostId) : null;
-  const altPath = altPost ? `/blog/${altPost.slug}` : null;
+  // Fall back to the section listing (always valid in both locales) rather
+  // than reusing this post's slug — WordPress translations don't share
+  // slugs, so guessing "/blog/<this-english-slug>" for Spanish would 404.
+  const altPath = altPost ? `/blog/${altPost.slug}` : "/blog";
 
   const title = decode(post.title.rendered);
   const canonicalUrl = `${SITE.url}${locale === routing.defaultLocale ? "" : `/${locale}`}/blog/${slug}`;

@@ -67,7 +67,10 @@ export default async function PodcastEpisodePage({
   const otherLocale = routing.locales.find((l) => l !== locale);
   const otherLocalePostId = otherLocale ? post.translations?.[otherLocale] : undefined;
   const altPost = otherLocalePostId && otherLocalePostId !== post.id ? await fetchPostById(otherLocalePostId) : null;
-  const altPath = altPost ? `/podcast/${altPost.slug}` : null;
+  // Fall back to the section listing (always valid in both locales) rather
+  // than reusing this post's slug — WordPress translations don't share
+  // slugs, so guessing "/podcast/<this-english-slug>" would 404.
+  const altPath = altPost ? `/podcast/${altPost.slug}` : "/podcast";
 
   const title = decode(post.title.rendered);
   const canonicalUrl = `${SITE.url}${locale === routing.defaultLocale ? "" : `/${locale}`}/podcast/${slug}`;

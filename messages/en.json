@@ -714,5 +714,25 @@
     "authorRole": "Founder, Precise Wolf Digital",
     "authorBio": "Ten years of hands-on web design and SEO experience. When I'm not working, I like to spend time working out and walking with my dog.",
     "shareArticle": "Share this case study"
+  },
+  "notFound": {
+    "heading": "Whoops... page not found.",
+    "body": "We couldn't find the page you're looking for. It may have been moved or deleted. Double-check the URL, or search below.",
+    "backHome": "Go back home",
+    "or": "Or",
+    "searchPlaceholder": "Search the site..."
+  },
+  "search": {
+    "metaTitle": "Search",
+    "heading": "Search",
+    "placeholder": "Search the site...",
+    "submit": "Search",
+    "resultsFor": "Results for \"{query}\"",
+    "resultCount": "{count, plural, =0 {No results} one {# result} other {# results}}",
+    "empty": "No results found. Try a different search, or browse the site from the menu above.",
+    "typePage": "Page",
+    "typeBlog": "Blog",
+    "typePodcast": "Podcast",
+    "typeCaseStudy": "Case Study"
   }
 }

@@ -9,6 +9,21 @@ import { gsap } from "@/lib/gsap";
 import Logo from "@/components/Logo";
 import { useAltLocalePath } from "@/lib/alt-locale-context";
 
+// WordPress content sections where the English and Spanish posts commonly
+// live at different slugs. useAltLocalePath's real per-post value only
+// reaches the DOM after hydration (it's set via a client useEffect on the
+// page), so raw server-rendered HTML — what crawlers and first paint see —
+// always falls back to this. It must therefore never guess a same-slug URL:
+// that's exactly the dead link this is here to prevent. Static pages (not
+// listed here) keep the same slug across locales, so reusing the current
+// pathname for those is already correct.
+const CONTENT_SECTIONS = ["/blog", "/podcast", "/case-studies"];
+
+function getSsrSafeLocaleSwitchPath(pathname: string): string {
+  const section = CONTENT_SECTIONS.find((s) => pathname === s || pathname.startsWith(`${s}/`));
+  return section ?? pathname;
+}
+
 export default function Nav() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -52,7 +67,7 @@ export default function Nav() {
 
   const otherLocale = locale === "en" ? "es" : "en";
   const altPath = useAltLocalePath();
-  const localeSwitchHref = altPath ?? pathname;
+  const localeSwitchHref = altPath ?? getSsrSafeLocaleSwitchPath(pathname);
 
   const navMuted = scrolled ? "text-card-fg-muted" : "text-fg-muted";
   const navBase = scrolled ? "text-card-fg" : "text-fg";

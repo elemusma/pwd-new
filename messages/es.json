@@ -718,5 +718,25 @@
     "authorRole": "Fundador, Precise Wolf Digital",
     "authorBio": "Diez años de experiencia práctica en diseño web y SEO, sin gerentes de cuenta, sin subcontratación.",
     "shareArticle": "Comparte este caso de éxito"
+  },
+  "notFound": {
+    "heading": "Ups... página no encontrada.",
+    "body": "No pudimos encontrar la página que buscas. Puede que se haya movido o eliminado. Revisa el enlace, o busca abajo.",
+    "backHome": "Volver al inicio",
+    "or": "O",
+    "searchPlaceholder": "Buscar en el sitio..."
+  },
+  "search": {
+    "metaTitle": "Buscar",
+    "heading": "Buscar",
+    "placeholder": "Buscar en el sitio...",
+    "submit": "Buscar",
+    "resultsFor": "Resultados para \"{query}\"",
+    "resultCount": "{count, plural, =0 {Sin resultados} one {# resultado} other {# resultados}}",
+    "empty": "No se encontraron resultados. Intenta otra búsqueda o navega el sitio desde el menú de arriba.",
+    "typePage": "Página",
+    "typeBlog": "Blog",
+    "typePodcast": "Podcast",
+    "typeCaseStudy": "Caso de éxito"
   }
 }
