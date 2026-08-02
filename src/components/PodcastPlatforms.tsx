@@ -11,7 +11,7 @@ export default function PodcastPlatforms({ label }: { label: string }) {
             key={platform.name}
             href={platform.href}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer me"
             aria-label={platform.name}
             className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl transition-transform hover:scale-105"
           >

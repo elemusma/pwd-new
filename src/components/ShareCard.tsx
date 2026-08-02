@@ -27,7 +27,7 @@ export default function ShareCard({ url, title, label }: { url: string; title: s
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer me"
           aria-label="Share on Facebook"
           className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-card-border text-card-fg-muted hover:text-card-fg hover:border-accent transition-colors"
         >
@@ -36,7 +36,7 @@ export default function ShareCard({ url, title, label }: { url: string; title: s
         <a
           href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer me"
           aria-label="Share on LinkedIn"
           className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-card-border text-card-fg-muted hover:text-card-fg hover:border-accent transition-colors"
         >
@@ -45,7 +45,7 @@ export default function ShareCard({ url, title, label }: { url: string; title: s
         <a
           href={`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow noopener noreferrer me"
           aria-label="Share on X"
           className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-card-border text-card-fg-muted hover:text-card-fg hover:border-accent transition-colors"
         >
