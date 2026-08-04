@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { Link, usePathname } from "@/i18n/navigation";
+import { Link, usePathname, getPathname } from "@/i18n/navigation";
 import { Menu, X, ArrowUpRight, ChevronDown } from "lucide-react";
 import { NAV_LINKS } from "@/lib/site";
 import { gsap } from "@/lib/gsap";
@@ -67,7 +67,13 @@ export default function Nav() {
 
   const otherLocale = locale === "en" ? "es" : "en";
   const altPath = useAltLocalePath();
-  const localeSwitchHref = altPath ?? getSsrSafeLocaleSwitchPath(pathname);
+  const localeSwitchTarget = altPath ?? getSsrSafeLocaleSwitchPath(pathname);
+  // Link's own `locale` prop always fully-prefixes the target, including
+  // English, which is wrong under localePrefix "as-needed" (English should
+  // never carry /en/, only Spanish carries /es/). getPathname respects the
+  // as-needed rule correctly in both directions, so we precompute the real
+  // canonical href and pass it as a plain href with no `locale` prop below.
+  const localeSwitchHref = getPathname({ href: localeSwitchTarget, locale: otherLocale });
 
   const navMuted = scrolled ? "text-card-fg-muted" : "text-fg-muted";
   const navBase = scrolled ? "text-card-fg" : "text-fg";
@@ -130,15 +136,14 @@ export default function Nav() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link
+          <a
             href={localeSwitchHref}
-            locale={otherLocale}
             className={`hidden lg:inline-flex items-center gap-1.5 text-sm ${navMuted} hover:text-accent transition-colors`}
             aria-label={otherLocale === "es" ? "Ver en español" : "View in English"}
           >
             <span aria-hidden="true">{otherLocale === "es" ? "🇲🇽" : "🇺🇸"}</span>
             {otherLocale === "es" ? "Español" : "English"}
-          </Link>
+          </a>
           <Link
             href="/calendar"
             className="hidden md:inline-flex items-center gap-1.5 rounded-full bg-accent px-4 py-2 text-sm font-medium text-bg hover:bg-accent-soft transition-colors"
@@ -187,13 +192,12 @@ export default function Nav() {
           })}
         </div>
         <div className="flex flex-col gap-3">
-          <Link
+          <a
             href={localeSwitchHref}
-            locale={otherLocale}
             className="mobile-link inline-flex items-center justify-center gap-1.5 rounded-full border border-card-border py-3.5 text-base font-medium text-card-fg"
           >
             {otherLocale === "es" ? "Ver en español" : "View in English"}
-          </Link>
+          </a>
           <Link
             href="/calendar"
             className="mobile-link inline-flex items-center justify-center gap-1.5 rounded-full bg-accent px-5 py-3.5 text-base font-medium text-bg"

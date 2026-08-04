@@ -5,6 +5,7 @@
     "services": "Servicios",
     "webDesign": "Diseño Web",
     "seo": "SEO",
+    "ecommerce": "eCommerce",
     "portfolio": "Portafolio",
     "caseStudies": "Casos de Éxito",
     "pricing": "Precios",
@@ -263,6 +264,52 @@
       ]
     },
     "cta": "¿Listo para hablar sobre tu sitio web?"
+  },
+  "ecommercePage": {
+    "metaTitle": "Desarrollo de eCommerce Empresarial",
+    "metaDescription": "Plataformas de eCommerce empresarial hechas a medida con funcionalidad basada en roles para B2B y B2C. Escalables, seguras y adaptadas a los flujos de trabajo de tu negocio.",
+    "heading": "Plataformas de eCommerce empresarial para retail y mayoreo.",
+    "subhead": "Construimos sistemas de eCommerce personalizados con funcionalidad basada en roles para operaciones de retail y mayoreo. Experiencias, permisos y flujos de trabajo adaptados para clientes, proveedores y administradores: escalables, seguras y construidas para necesidades empresariales complejas.",
+    "deliverables": {
+      "eyebrow": "Qué incluye",
+      "heading": "La base técnica que necesita todo sitio de eCommerce empresarial.",
+      "items": [
+        {
+          "title": "Calidad de código",
+          "description": "Escribimos código limpio y mantenible que escala con tu negocio y soporta lógica personalizada."
+        },
+        {
+          "title": "Roles de usuario",
+          "description": "Creamos acceso a la medida para administradores, compradores y proveedores, cada uno con las herramientas que necesita."
+        },
+        {
+          "title": "Experiencia móvil",
+          "description": "Diseños que funcionan perfectamente en cualquier dispositivo para atender a tus clientes donde sea que compren."
+        },
+        {
+          "title": "Pago seguro",
+          "description": "Flujos de pago rápidos, seguros y flexibles que se adaptan a tu estructura de precios y usuarios."
+        },
+        {
+          "title": "Paneles personalizados",
+          "description": "Le damos a cada usuario un backend potente y simple de usar, con solo lo que necesita."
+        },
+        {
+          "title": "Soporte continuo",
+          "description": "Mantenemos, actualizamos y mejoramos tu plataforma conforme tu negocio y tus funciones evolucionan."
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Precise Wolf Digital construye plataformas empresariales con precisión.",
+      "paragraphs": [
+        "Diseñamos interfaces intuitivas para cada usuario, ya sean clientes de retail, compradores mayoristas o equipos internos. La navegación, el pago y la gestión de cuentas están optimizados para reducir fricción y aumentar la satisfacción.",
+        "Construimos en torno a tus operaciones con roles de usuario, permisos y flujos de trabajo personalizados. Desde pedidos al mayoreo hasta portales de proveedores, tu plataforma se estructura para adaptarse a cómo funciona realmente tu negocio.",
+        "Tu plataforma está totalmente personalizada, B2B, B2C, o ambas. Adaptamos la funcionalidad, la lógica de precios y las integraciones para cumplir tus objetivos y sostener la escalabilidad a largo plazo en todos los departamentos y audiencias.",
+        "Diseñamos sistemas que soportan B2B y B2C con roles, flujos de trabajo y precios personalizados, pensados para cómo realmente opera tu negocio. Creamos experiencias únicas para clientes, mayoristas, proveedores y personal, cada una con acceso, paneles y permisos a la medida.",
+        "Creamos herramientas de backend que facilitan gestionar productos, pedidos, usuarios y contenido, sin necesidad de conocimientos técnicos. Desde la búsqueda de productos hasta el pago, diseñamos experiencias claras e intuitivas que simplifican sistemas complejos."
+      ]
+    }
   },
   "seoPage": {
     "metaTitle": "Empresa de SEO en Denver | Agencia de SEO Local",

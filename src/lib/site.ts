@@ -53,6 +53,7 @@ export const NAV_LINKS: NavLink[] = [
     children: [
       { key: "webDesign", href: "/services/web-design" },
       { key: "seo", href: "/services/seo" },
+      { key: "ecommerce", href: "/services/ecommerce" },
     ],
   },
   { key: "portfolio", href: "/portfolio" },

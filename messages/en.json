@@ -5,6 +5,7 @@
     "services": "Services",
     "webDesign": "Web Design",
     "seo": "SEO",
+    "ecommerce": "eCommerce",
     "portfolio": "Portfolio",
     "caseStudies": "Case Studies",
     "pricing": "Pricing",
@@ -263,6 +264,52 @@
       ]
     },
     "cta": "Ready to talk about your website?"
+  },
+  "ecommercePage": {
+    "metaTitle": "Enterprise eCommerce Development",
+    "metaDescription": "Custom-built enterprise eCommerce platforms with role-based functionality for B2B and B2C. Scalable, secure, and tailored to your business workflows.",
+    "heading": "Enterprise eCommerce platforms for retail & wholesale.",
+    "subhead": "We build custom eCommerce systems with role-based functionality for retail and wholesale operations. Tailored user experiences, permissions, and workflows for customers, vendors, and admins, scalable, secure, and built for complex business needs.",
+    "deliverables": {
+      "eyebrow": "What's included",
+      "heading": "The technical foundation every enterprise eCommerce site needs.",
+      "items": [
+        {
+          "title": "Code quality",
+          "description": "We write clean, maintainable code that scales with your business and supports custom logic."
+        },
+        {
+          "title": "User roles",
+          "description": "Build tailored access for admins, buyers, and vendors, each with the tools they need."
+        },
+        {
+          "title": "Mobile experience",
+          "description": "Designs that work flawlessly on every device to serve customers wherever they shop."
+        },
+        {
+          "title": "Secure checkout",
+          "description": "Fast, secure, and flexible checkout flows that match your pricing and user structure."
+        },
+        {
+          "title": "Custom dashboards",
+          "description": "Give each user a powerful backend that's simple to use, with only what they need."
+        },
+        {
+          "title": "Ongoing support",
+          "description": "We maintain, update, and improve your platform as your business and features evolve."
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Precise Wolf Digital builds enterprise platforms with precision.",
+      "paragraphs": [
+        "We design intuitive interfaces for every user, whether they're retail customers, wholesale buyers, or internal teams. Navigation, checkout, and account management are all streamlined to reduce friction and increase satisfaction.",
+        "We build around your operations with custom user roles, permissions, and workflows. From bulk ordering to vendor portals, your platform is structured to match how your business actually functions.",
+        "Your platform is fully customized, B2B, B2C, or both. We tailor functionality, pricing logic, and integrations to meet your goals and support long-term scalability across all departments and audiences.",
+        "We engineer systems that support B2B and B2C with custom roles, workflows, and pricing, designed for how your business actually operates. Create unique experiences for customers, wholesalers, vendors, and staff, all with tailored access, dashboards, and permissions.",
+        "We create backend tools that make it easy to manage products, orders, users, and content, no technical skills needed. From product search to checkout, we design clean, intuitive experiences that make complex systems easy to use."
+      ]
+    }
   },
   "seoPage": {
     "metaTitle": "Denver SEO Company | Local SEO Agency",
