@@ -587,7 +587,7 @@
         },
         "pricing": {
           "title": "Transparent, flat pricing",
-          "description": "Websites start at $5,000. SEO starts at $2,000 a month. No padded retainers, no mystery invoices six months in."
+          "description": "Websites start at $6,000. SEO starts at $2,000 a month. No padded retainers, no mystery invoices six months in."
         },
         "dataBacked": {
           "title": "SEO grounded in data",
@@ -625,7 +625,7 @@
     },
     "pricingTeaser": {
       "heading": "No hidden line items. No vague quotes.",
-      "body": "Websites start at $5,000. SEO starts at $2,000 a month. That's it. No add-on packages, no mystery invoices six months in. You'll know exactly what you're paying for before you sign anything.",
+      "body": "Websites start at $6,000. SEO starts at $2,000 a month. That's it. No add-on packages, no mystery invoices six months in. You'll know exactly what you're paying for before you sign anything.",
       "cta": "See full pricing"
     },
     "faq": {
@@ -687,7 +687,7 @@
     "metaTitle": "Pricing",
     "metaDescription": "Transparent web design and SEO pricing from {name}, based in {city}.",
     "heading": "Pricing",
-    "subhead": "Choose either a one-time website build or ongoing SEO (ongoing SEO includes website build for free).",
+    "subhead": "Choose either a one-time website build or ongoing SEO.",
     "faq": {
       "eyebrow": "Common questions",
       "heading": "About pricing.",
