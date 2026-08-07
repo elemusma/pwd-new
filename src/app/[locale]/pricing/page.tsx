@@ -31,7 +31,6 @@ export default function PricingPage() {
           <h1 className="font-display text-balance text-4xl leading-[1.1] text-fg sm:text-5xl md:text-6xl">
             {t("heading")}
           </h1>
-          <p className="mt-6 max-w-xl text-lg text-fg-muted">{t("subhead")}</p>
         </Reveal>
       </section>
 

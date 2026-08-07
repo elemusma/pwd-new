@@ -691,7 +691,6 @@
     "metaTitle": "Precios",
     "metaDescription": "Precios transparentes de diseño web y SEO de {name}, con sede en {city}.",
     "heading": "Precios directos, sin retenedores inflados.",
-    "subhead": "Cada proyecto se ajusta a lo que tu negocio realmente necesita. Estos paquetes son un punto de partida. Agenda una llamada para una cotización exacta.",
     "faq": {
       "eyebrow": "Preguntas comunes",
       "heading": "Sobre los precios.",
@@ -715,6 +714,8 @@
       ]
     },
     "cta": "¿Quieres una cotización exacta para tu proyecto?",
+    "multilingualToggle": "¿Necesitas tu sitio optimizado para SEO en inglés y español? Activa el interruptor para ver los precios.",
+    "bookCallCta": "Agenda una llamada",
     "plans": {
       "webDesign": {
         "name": "Diseño Web",

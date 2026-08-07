@@ -687,7 +687,6 @@
     "metaTitle": "Pricing",
     "metaDescription": "Transparent web design and SEO pricing from {name}, based in {city}.",
     "heading": "Pricing",
-    "subhead": "Choose either a one-time website build or ongoing SEO.",
     "faq": {
       "eyebrow": "Common questions",
       "heading": "About pricing.",
@@ -711,6 +710,8 @@
       ]
     },
     "cta": "Want an exact quote for your project?",
+    "multilingualToggle": "Need your website optimized for SEO in English and Spanish? Toggle to see the pricing.",
+    "bookCallCta": "Book a call",
     "plans": {
       "webDesign": {
         "name": "Web Design",
