@@ -61,13 +61,13 @@ export default function Home() {
               </Button>
             </div>
           </HeroIntro>
-          <Reveal delay={0.15} className="relative hidden aspect-square w-full overflow-hidden rounded-3xl border border-border lg:block">
+          <Reveal delay={0.15} className="relative aspect-square w-full overflow-hidden rounded-3xl border border-border">
             <Image
               src="/headshot/Ted-Martinez-Hero.jpg"
               alt="Ted Martinez, founder of Precise Wolf Digital, at his desk in Denver"
               fill
               priority
-              sizes="420px"
+              sizes="(min-width: 1024px) 420px, 100vw"
               className="object-cover"
             />
           </Reveal>

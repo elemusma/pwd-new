@@ -46,23 +46,22 @@ export default function Nav() {
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     const el = menuRef.current;
-    if (!el) return;
-    if (open) {
-      gsap.set(el, { display: "flex" });
-      gsap.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.35, ease: "power2.out" });
-      gsap.fromTo(
-        el.querySelectorAll(".mobile-link"),
-        { y: 24, opacity: 0 },
-        { y: 0, opacity: 1, duration: 0.5, stagger: 0.06, delay: 0.1, ease: "power3.out" }
-      );
-    } else if (el) {
-      gsap.to(el, {
-        opacity: 0,
-        duration: 0.25,
-        ease: "power2.in",
-        onComplete: () => gsap.set(el, { display: "none" }),
-      });
-    }
+    if (!el || !open) return;
+
+    // The panel's own show/hide is plain CSS (opacity transition driven by
+    // the `open` class below) rather than an imperative GSAP tween — a
+    // GSAP tween here raced against React re-renders (StrictMode's double
+    // effect invocation in dev reliably left the close tween created but
+    // never actually animating, so the panel stayed visible after "closing").
+    // CSS transitions driven straight from React state can't get out of sync
+    // like that. GSAP is still used for the nice-to-have staggered entrance
+    // of the links themselves, which isn't safety-critical if it ever hiccups.
+    gsap.killTweensOf(el.querySelectorAll(".mobile-link"));
+    gsap.fromTo(
+      el.querySelectorAll(".mobile-link"),
+      { y: 24, opacity: 0 },
+      { y: 0, opacity: 1, duration: 0.5, stagger: 0.06, delay: 0.1, ease: "power3.out" }
+    );
   }, [open]);
 
   const otherLocale = locale === "en" ? "es" : "en";
@@ -139,7 +138,7 @@ export default function Nav() {
           <a
             href={localeSwitchHref}
             className={`hidden lg:inline-flex items-center gap-1.5 text-sm ${navMuted} hover:text-accent transition-colors`}
-            aria-label={otherLocale === "es" ? "Ver en español" : "View in English"}
+            aria-label={otherLocale === "es" ? "Leer en español" : "Read in English"}
           >
             <span aria-hidden="true">{otherLocale === "es" ? "🇲🇽" : "🇺🇸"}</span>
             {otherLocale === "es" ? "Español" : "English"}
@@ -163,7 +162,10 @@ export default function Nav() {
 
       <div
         ref={menuRef}
-        className="md:hidden fixed inset-0 top-20 z-40 hidden flex-col justify-between bg-card px-6 pb-10 pt-4"
+        aria-hidden={!open}
+        className={`md:hidden fixed inset-0 top-20 z-40 flex flex-col justify-between overflow-y-auto bg-card px-6 pb-10 pt-4 transition-opacity duration-300 ${
+          open ? "opacity-100" : "pointer-events-none opacity-0"
+        }`}
         style={{ height: "calc(100dvh - 5rem)" }}
       >
         <div className="flex flex-col gap-1">
@@ -182,7 +184,7 @@ export default function Nav() {
                 href={link.href}
                 className={`mobile-link font-display py-3 border-b border-card-border ${
                   active ? "text-accent" : "text-card-fg"
-                } ${link.isChild ? "pl-4 text-xl" : "text-3xl"} ${
+                } ${link.isChild ? "pl-4 text-lg" : "text-2xl"} ${
                   link.isChild && !active ? "text-card-fg-muted" : ""
                 }`}
               >
@@ -194,9 +196,10 @@ export default function Nav() {
         <div className="flex flex-col gap-3">
           <a
             href={localeSwitchHref}
-            className="mobile-link inline-flex items-center justify-center gap-1.5 rounded-full border border-card-border py-3.5 text-base font-medium text-card-fg"
+            className="mobile-link inline-flex items-center justify-center gap-1.5 rounded-full border border-card-border py-3.5 text-[22px] font-medium text-card-fg"
           >
-            {otherLocale === "es" ? "Ver en español" : "View in English"}
+            {otherLocale === "es" ? "Leer en español" : "Read in English"}
+            <span aria-hidden="true">{otherLocale === "es" ? "🇲🇽" : "🇺🇸"}</span>
           </a>
           <Link
             href="/calendar"

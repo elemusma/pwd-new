@@ -51,6 +51,7 @@
 html {
   background: var(--color-bg);
   color-scheme: dark;
+  scrollbar-gutter: stable;
 }
 
 html.lenis {
