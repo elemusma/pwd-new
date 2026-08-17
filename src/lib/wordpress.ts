@@ -125,3 +125,14 @@ export function formatPostDate(dateString: string, locale = "en"): string {
     day: "numeric",
   });
 }
+
+// WordPress stamps `modified` a moment after `date` on essentially every
+// save, so a raw `modified !== date` check flags nearly every post as
+// "updated" — including ones edited seconds after publishing. Only surface
+// it for edits that happened a meaningful amount of time later.
+const UPDATED_THRESHOLD_DAYS = 180;
+
+export function isMeaningfullyUpdated(post: Pick<WPPost, "date" | "modified">): boolean {
+  const diffDays = (new Date(post.modified).getTime() - new Date(post.date).getTime()) / 86_400_000;
+  return diffDays >= UPDATED_THRESHOLD_DAYS;
+}

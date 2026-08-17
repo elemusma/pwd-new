@@ -8,7 +8,7 @@ import Reveal from "@/components/Reveal";
 import TableOfContents from "@/components/TableOfContents";
 import BlogAuthorSidebar from "@/components/BlogAuthorSidebar";
 import SetAltLocalePath from "@/components/SetAltLocalePath";
-import { fetchPostBySlug, fetchPostById, getFeaturedImage, decodeExcerpt, formatPostDate, CATEGORY } from "@/lib/wordpress";
+import { fetchPostBySlug, fetchPostById, getFeaturedImage, decodeExcerpt, formatPostDate, isMeaningfullyUpdated, CATEGORY } from "@/lib/wordpress";
 import { addHeadingIdsAndExtractToc } from "@/lib/toc";
 import { SITE } from "@/lib/site";
 import { routing, type Locale } from "@/i18n/routing";
@@ -88,7 +88,7 @@ export default async function CaseStudyPostPage({
           </Link>
           <p className="mt-6 text-xs uppercase tracking-widest text-fg-dim">
             {formatPostDate(post.date, locale)}
-            {post.modified !== post.date ? ` ${t("updated", { date: formatPostDate(post.modified, locale) })}` : ""}
+            {isMeaningfullyUpdated(post) ? ` ${t("updated", { date: formatPostDate(post.modified, locale) })}` : ""}
           </p>
           <h1 className="font-display text-balance mt-4 text-3xl leading-[1.15] text-fg sm:text-4xl md:text-5xl">
             {title}
