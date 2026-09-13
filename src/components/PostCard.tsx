@@ -5,7 +5,16 @@ import { decode } from "he";
 import { useLocale, useTranslations } from "next-intl";
 import { getFeaturedImage, decodeExcerpt, formatPostDate, type WPPost } from "@/lib/wordpress";
 
-export default function PostCard({ post, basePath }: { post: WPPost; basePath: string }) {
+export default function PostCard({
+  post,
+  basePath,
+  compact = false,
+}: {
+  post: WPPost;
+  basePath: string;
+  /** Title-only card: hides the excerpt and the read-more link. Used by the blog grid. */
+  compact?: boolean;
+}) {
   const image = getFeaturedImage(post);
   const t = useTranslations("general");
   const locale = useLocale();
@@ -31,13 +40,23 @@ export default function PostCard({ post, basePath }: { post: WPPost; basePath: s
         )}
       </div>
       <div className="flex flex-1 flex-col p-6">
-        <p className="text-xs uppercase tracking-widest text-card-fg-dim">{formatPostDate(post.date, locale)}</p>
-        <h3 className="font-display mt-3 text-xl text-card-fg">{decode(post.title.rendered)}</h3>
-        <p className="mt-3 flex-1 text-sm text-card-fg-muted">{decodeExcerpt(post.excerpt.rendered, 130)}</p>
-        <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-card-fg group-hover:text-accent transition-colors">
-          {t("readMore")}
-          <ArrowUpRight size={15} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-        </span>
+        {!compact && (
+          <p className="text-xs uppercase tracking-widest text-card-fg-dim">{formatPostDate(post.date, locale)}</p>
+        )}
+        <h3
+          className={`font-display text-card-fg ${compact ? "flex-1 text-base" : "mt-3 text-xl"}`}
+        >
+          {decode(post.title.rendered)}
+        </h3>
+        {!compact && (
+          <>
+            <p className="mt-3 flex-1 text-sm text-card-fg-muted">{decodeExcerpt(post.excerpt.rendered, 130)}</p>
+            <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-card-fg group-hover:text-accent transition-colors">
+              {t("readMore")}
+              <ArrowUpRight size={15} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            </span>
+          </>
+        )}
       </div>
     </Link>
   );

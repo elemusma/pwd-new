@@ -32,7 +32,7 @@ export default async function BlogPage({
   const { locale } = await params;
   const { page: pageParam } = await searchParams;
   const page = Math.max(1, Number(pageParam) || 1);
-  const { posts, totalPages } = await fetchPosts(CATEGORY.blog[locale as Locale], page, 9);
+  const { posts, totalPages } = await fetchPosts(CATEGORY.blog[locale as Locale], page, 10);
   const t = await getTranslations({ locale, namespace: "blogPage" });
 
   return (
@@ -42,7 +42,6 @@ export default async function BlogPage({
           <h1 className="font-display text-balance text-4xl leading-[1.1] text-fg sm:text-5xl md:text-6xl">
             {t("title")}
           </h1>
-          <p className="mt-4 text-lg text-fg-muted">{t("heading")}</p>
         </Reveal>
       </section>
 
@@ -53,10 +52,10 @@ export default async function BlogPage({
           </Reveal>
         ) : (
           <>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
               {posts.map((post, i) => (
                 <Reveal key={post.id} delay={Math.min(i * 0.05, 0.3)}>
-                  <PostCard post={post} basePath="/blog" />
+                  <PostCard post={post} basePath="/blog" compact />
                 </Reveal>
               ))}
             </div>
