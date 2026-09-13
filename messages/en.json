@@ -15,7 +15,7 @@
     "whitePaper": "White Paper",
     "contact": "Contact",
     "calendar": "Calendar",
-    "bookACall": "Book a call"
+    "bookACall": "Book call"
   },
   "general": {
     "metaTitle": "Web Design & SEO in Denver, CO",
@@ -711,7 +711,7 @@
     },
     "cta": "Want an exact quote for your project?",
     "multilingualToggle": "Need your website optimized for SEO in English and Spanish? Toggle to see the pricing.",
-    "bookCallCta": "Book a call",
+    "bookCallCta": "Book call",
     "plans": {
       "webDesign": {
         "name": "Web Design",
