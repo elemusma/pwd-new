@@ -39,7 +39,7 @@ export default function PostCard({
           </div>
         )}
       </div>
-      <div className="flex flex-1 flex-col p-6">
+      <div className={`flex flex-1 flex-col ${compact ? "p-4" : "p-6"}`}>
         {!compact && (
           <p className="text-xs uppercase tracking-widest text-card-fg-dim">{formatPostDate(post.date, locale)}</p>
         )}
