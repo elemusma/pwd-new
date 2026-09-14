@@ -31,10 +31,22 @@ export default function Nav() {
   const locale = useLocale();
   const t = useTranslations("nav");
   const menuRef = useRef<HTMLDivElement>(null);
+  const [expandedKey, setExpandedKey] = useState<string | null>(null);
 
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
+
+  // Each time the mobile menu opens, pre-expand the section containing the
+  // current page (if any) and collapse the rest.
+  useEffect(() => {
+    if (!open) return;
+    const current = NAV_LINKS.find(
+      (link) => "children" in link && link.children?.some((c) => isLinkActive(c.href))
+    );
+    setExpandedKey(current?.key ?? null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [open]);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -170,27 +182,76 @@ export default function Nav() {
         style={{ height: "calc(100dvh - 5rem)" }}
       >
         <div className="flex flex-col gap-1">
-          {NAV_LINKS.flatMap((link) =>
-            "children" in link && link.children
-              ? [
-                  { key: link.key, href: link.href, isChild: false },
-                  ...link.children.map((c) => ({ key: c.key, href: c.href, isChild: true })),
-                ]
-              : [{ key: link.key, href: link.href, isChild: false }]
-          ).map((link) => {
-            const active = isLinkActive(link.href);
+          {NAV_LINKS.map((link) => {
+            const active = isNavItemActive(link);
+            const children = "children" in link ? link.children : undefined;
+
+            if (!children) {
+              return (
+                <Link
+                  key={link.key}
+                  href={link.href}
+                  className={`mobile-link font-display py-3 text-2xl border-b border-card-border ${
+                    active ? "text-accent" : "text-card-fg"
+                  }`}
+                >
+                  {t(link.key)}
+                </Link>
+              );
+            }
+
+            const expanded = expandedKey === link.key;
+            const submenuId = `mobile-submenu-${link.key}`;
             return (
-              <Link
-                key={link.href + link.key}
-                href={link.href}
-                className={`mobile-link font-display py-3 border-b border-card-border ${
-                  active ? "text-accent" : "text-card-fg"
-                } ${link.isChild ? "pl-4 text-lg" : "text-2xl"} ${
-                  link.isChild && !active ? "text-card-fg-muted" : ""
-                }`}
-              >
-                {t(link.key)}
-              </Link>
+              <div key={link.key} className="mobile-link border-b border-card-border">
+                <div className="flex items-center justify-between">
+                  <Link
+                    href={link.href}
+                    className={`font-display flex-1 py-3 text-2xl ${active ? "text-accent" : "text-card-fg"}`}
+                  >
+                    {t(link.key)}
+                  </Link>
+                  <button
+                    type="button"
+                    aria-expanded={expanded}
+                    aria-controls={submenuId}
+                    aria-label={t(link.key)}
+                    onClick={() => setExpandedKey(expanded ? null : link.key)}
+                    className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-card-fg"
+                  >
+                    <ChevronDown
+                      size={20}
+                      className={`transition-transform duration-300 ${expanded ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                </div>
+                <div
+                  id={submenuId}
+                  className={`grid transition-[grid-template-rows] duration-300 ease-out ${
+                    expanded ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                  }`}
+                >
+                  <div className="overflow-hidden">
+                    <div className="flex flex-col pb-3">
+                      {children.map((child) => {
+                        const childActive = isLinkActive(child.href);
+                        return (
+                          <Link
+                            key={child.href}
+                            href={child.href}
+                            tabIndex={expanded ? undefined : -1}
+                            className={`font-display py-2 pl-4 text-lg ${
+                              childActive ? "text-accent" : "text-card-fg-muted"
+                            }`}
+                          >
+                            {t(child.key)}
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              </div>
             );
           })}
         </div>
