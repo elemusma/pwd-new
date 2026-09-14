@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeadshotIcons() {
   return (
-    <div className="relative w-full max-w-sm mx-auto">
+    <div className="relative w-full max-w-sm mx-auto" style={{overflow: "hidden"}}>
       <Image
         src="/assets/Design-Development-Tools.png"
         alt="Tools used by Precise Wolf Digital: design, development, and SEO"

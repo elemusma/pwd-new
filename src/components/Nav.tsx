@@ -150,10 +150,11 @@ export default function Nav() {
             {t("bookACall")}
             <ArrowUpRight size={15} />
           </Link>
+
           <button
             aria-label="Toggle menu"
             onClick={() => setOpen((v) => !v)}
-            className={`md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border ${navBorder} ${navBase}`}
+            className={`md:hidden inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border ${navBorder} ${navBase}`}
           >
             {open ? <X size={18} /> : <Menu size={18} />}
           </button>

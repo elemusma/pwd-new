@@ -255,6 +255,8 @@ textarea:-webkit-autofill:focus {
 
 .headshot-ring {
   animation: logo-rotate 45s linear infinite;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
 }
 
 @media (prefers-reduced-motion: reduce) {
