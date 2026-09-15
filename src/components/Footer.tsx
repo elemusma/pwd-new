@@ -1,6 +1,5 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { ArrowUpRight } from "lucide-react";
 import { NAV_LINKS, SITE } from "@/lib/site";
 import Logo from "@/components/Logo";
 
@@ -23,7 +22,6 @@ export default function Footer() {
               className="inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-soft transition-colors"
             >
               {tg("bookFreeCall")}
-              <ArrowUpRight size={15} />
             </Link>
           </div>
 

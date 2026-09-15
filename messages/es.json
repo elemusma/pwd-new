@@ -15,12 +15,12 @@
     "whitePaper": "White Paper",
     "contact": "Contacto",
     "calendar": "Calendario",
-    "bookACall": "Agenda una llamada"
+    "bookACall": "Consulta Gratis"
   },
   "general": {
     "metaTitle": "Diseño Web y SEO en Denver, CO",
     "tagline": "Diseño web y SEO para negocios de Denver que quieren ser encontrados.",
-    "bookFreeCall": "Agenda una llamada estratégica gratis",
+    "bookFreeCall": "Consulta Gratis",
     "orCall": "O llama al {phone}",
     "learnMore": "Más información",
     "readMore": "Leer más",
@@ -473,7 +473,7 @@
     "metaTitle": "Mensaje Enviado",
     "heading": "¡Gracias!",
     "body": "Tu mensaje ha sido enviado con éxito. Me pondré en contacto contigo pronto.",
-    "cta": "Reserva una llamada de estrategia gratis",
+    "cta": "Consulta Gratis",
     "backHome": "Volver al inicio",
     "listenOn": "Escucha el podcast en:",
     "urgentQuestions": "¿Tienes preguntas urgentes?"
@@ -485,8 +485,8 @@
   },
   "calendar": {
     "metaTitle": "Calendario",
-    "metaDescription": "Agenda una llamada estratégica gratis con {name}.",
-    "heading": "Agenda una llamada estratégica gratis.",
+    "metaDescription": "Consulta gratis con {name}.",
+    "heading": "Consulta Gratis",
     "subhead": "30 minutos, sin presión. Hablaremos sobre tu sitio web o tus objetivos de SEO y si {shortName} es la opción correcta para ti."
   },
   "blogPage": {
@@ -545,7 +545,7 @@
       "metaTitle": "White Paper Solicitado",
       "heading": "¡Felicidades!",
       "body": "Recibirás el white paper por correo electrónico en breve. Ese es el primer paso para conseguir más casos y que los abogados te encuentren.",
-      "cta": "Reserva una llamada de estrategia gratis",
+      "cta": "Consulta Gratis",
       "backToBlog": "Volver al blog"
     }
   },
@@ -715,7 +715,7 @@
     },
     "cta": "¿Quieres una cotización exacta para tu proyecto?",
     "multilingualToggle": "¿Necesitas tu sitio optimizado para SEO en inglés y español? Activa el interruptor para ver los precios.",
-    "bookCallCta": "Agenda una llamada",
+    "bookCallCta": "Consulta Gratis",
     "plans": {
       "webDesign": {
         "name": "Diseño Web",

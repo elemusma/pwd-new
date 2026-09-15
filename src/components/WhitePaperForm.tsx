@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { ArrowUpRight, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { getRecaptchaToken } from "@/lib/recaptcha";
 import RecaptchaNotice from "@/components/RecaptchaNotice";
@@ -96,7 +96,7 @@ export default function WhitePaperForm() {
           </>
         ) : (
           <>
-            {t("submit")} <ArrowUpRight size={16} />
+            {t("submit")}
           </>
         )}
       </button>

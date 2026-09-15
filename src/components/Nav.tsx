@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname, getPathname } from "@/i18n/navigation";
-import { Menu, X, ArrowUpRight, ChevronDown, Phone } from "lucide-react";
+import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import { NAV_LINKS, SITE } from "@/lib/site";
 import { gsap } from "@/lib/gsap";
 import Logo from "@/components/Logo";
@@ -160,7 +160,6 @@ export default function Nav() {
             className="hidden min-[1200px]:inline-flex items-center gap-1.5 rounded-full bg-accent px-4 py-2 text-sm font-medium text-bg hover:bg-accent-soft transition-colors"
           >
             {t("bookACall")}
-            <ArrowUpRight size={15} />
           </Link>
 
           <button
@@ -277,7 +276,6 @@ export default function Nav() {
             className="mobile-link inline-flex flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-full bg-accent px-4 py-3.5 text-base font-medium text-bg"
           >
             {t("bookACall")}
-            <ArrowUpRight size={16} />
           </Link>
         </div>
       </div>

@@ -9,12 +9,16 @@ export default function Reveal({
   delay = 0,
   y = 48,
   start = "top 85%",
+  onLoad = false,
 }: {
   children: React.ReactNode;
   className?: string;
   delay?: number;
   y?: number;
   start?: string;
+  // Play as soon as the page loads instead of waiting for the element to
+  // scroll into view (for content that may start below the scroll trigger).
+  onLoad?: boolean;
 }) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -32,11 +36,13 @@ export default function Reveal({
           duration: 1,
           delay,
           ease: "power3.out",
-          scrollTrigger: {
-            trigger: el,
-            start,
-            toggleActions: "play none none reverse",
-          },
+          scrollTrigger: onLoad
+            ? undefined
+            : {
+                trigger: el,
+                start,
+                toggleActions: "play none none reverse",
+              },
         }
       );
     });
@@ -47,7 +53,7 @@ export default function Reveal({
         if (st.trigger === el) st.kill();
       });
     };
-  }, [delay, y, start]);
+  }, [delay, y, start, onLoad]);
 
   return (
     <div ref={ref} className={className}>

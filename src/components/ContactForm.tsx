@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { ArrowUpRight, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 import { useRouter } from "@/i18n/navigation";
 import { getRecaptchaToken } from "@/lib/recaptcha";
 import { formatPhoneNumber } from "@/lib/phoneFormatting";
@@ -132,7 +132,7 @@ export default function ContactForm({ submitLabel }: { submitLabel?: string } = 
           </>
         ) : (
           <>
-            {submitLabel ?? t("send")} <ArrowUpRight size={16} />
+            {submitLabel ?? t("send")}
           </>
         )}
       </button>

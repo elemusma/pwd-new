@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import Image from "next/image";
-import { ArrowUpRight, X } from "lucide-react";
+import { X } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import { PORTFOLIO_PROJECTS } from "@/lib/portfolioProjects";
 
@@ -77,7 +77,6 @@ export default function PortfolioGrid({
                   className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-border px-4 py-2 text-sm font-medium text-fg transition-colors hover:border-fg-muted"
                 >
                   {viewWebsiteLabel}
-                  <ArrowUpRight size={14} />
                 </a>
               ) : (
                 <span className="inline-flex shrink-0 items-center rounded-full border border-border-soft px-4 py-2 text-sm text-fg-dim">
@@ -110,7 +109,6 @@ export default function PortfolioGrid({
                       className="hidden shrink-0 items-center gap-1.5 rounded-full border border-border px-4 py-2 text-sm font-medium text-card-fg transition-colors hover:border-fg-muted sm:inline-flex"
                     >
                       {viewWebsiteLabel}
-                      <ArrowUpRight size={14} />
                     </a>
                   )}
                   <button

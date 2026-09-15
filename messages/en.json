@@ -15,12 +15,12 @@
     "whitePaper": "White Paper",
     "contact": "Contact",
     "calendar": "Calendar",
-    "bookACall": "Book call"
+    "bookACall": "Free Consultation"
   },
   "general": {
     "metaTitle": "Web Design & SEO in Denver, CO",
     "tagline": "Web design & SEO for Denver businesses that want to be found.",
-    "bookFreeCall": "Book a free strategy call",
+    "bookFreeCall": "Free Consultation",
     "orCall": "Or call {phone}",
     "learnMore": "Learn more",
     "readMore": "Read more",
@@ -473,20 +473,20 @@
     "metaTitle": "Message Sent",
     "heading": "Thank You!",
     "body": "Your message has been sent successfully. I will get back to you soon.",
-    "cta": "Book a free strategy call",
+    "cta": "Free Consultation",
     "backHome": "Back to home",
     "listenOn": "Listen to the podcast on:",
     "urgentQuestions": "Have urgent questions?"
   },
   "ctaForm": {
-    "heading": "Improve Your Online Presence, Name Recognition & Branding",
+    "heading": "Improve Your Online Presence and Name Recognition",
     "subhead": "If you need help getting more clients send a message to help you get started with your website or start an SEO strategy that gets you ranking in Google and AI resulting in more phone calls, texts and emails.",
-    "submit": "Get More Clients and Get Found"
+    "submit": "Send Message"
   },
   "calendar": {
     "metaTitle": "Calendar",
-    "metaDescription": "Book a free strategy call with {name}.",
-    "heading": "Book a free strategy call.",
+    "metaDescription": "Free consultation with {name}.",
+    "heading": "Free Consultation",
     "subhead": "30 minutes, no pressure. We'll talk through your website or SEO goals and whether {shortName} is the right fit."
   },
   "blogPage": {
@@ -545,7 +545,7 @@
       "metaTitle": "White Paper Requested",
       "heading": "Congrats!",
       "body": "You'll receive the white paper by email shortly. That's the first step toward getting more cases and getting found by attorneys.",
-      "cta": "Book a free strategy call",
+      "cta": "Free Consultation",
       "backToBlog": "Back to blog"
     }
   },
@@ -711,7 +711,7 @@
     },
     "cta": "Want an exact quote for your project?",
     "multilingualToggle": "Need your website optimized for SEO in English and Spanish? Toggle to see the pricing.",
-    "bookCallCta": "Book call",
+    "bookCallCta": "Free Consultation",
     "plans": {
       "webDesign": {
         "name": "Web Design",
