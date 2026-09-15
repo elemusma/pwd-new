@@ -3,8 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link, usePathname, getPathname } from "@/i18n/navigation";
-import { Menu, X, ArrowUpRight, ChevronDown } from "lucide-react";
-import { NAV_LINKS } from "@/lib/site";
+import { Menu, X, ArrowUpRight, ChevronDown, Phone } from "lucide-react";
+import { NAV_LINKS, SITE } from "@/lib/site";
 import { gsap } from "@/lib/gsap";
 import Logo from "@/components/Logo";
 import { useAltLocalePath } from "@/lib/alt-locale-context";
@@ -105,7 +105,7 @@ export default function Nav() {
           <Logo height={57} dark={scrolled} />
         </Link>
 
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden min-[1200px]:flex items-center gap-8">
           {NAV_LINKS.map((link) => {
             const active = isNavItemActive(link);
             return (
@@ -149,7 +149,7 @@ export default function Nav() {
         <div className="flex items-center gap-4">
           <a
             href={localeSwitchHref}
-            className={`hidden lg:inline-flex items-center gap-1.5 text-sm ${navMuted} hover:text-accent transition-colors`}
+            className={`hidden min-[1200px]:inline-flex items-center gap-1.5 text-sm ${navMuted} hover:text-accent transition-colors`}
             aria-label={otherLocale === "es" ? "Leer en español" : "Read in English"}
           >
             <span aria-hidden="true">{otherLocale === "es" ? "🇲🇽" : "🇺🇸"}</span>
@@ -157,7 +157,7 @@ export default function Nav() {
           </a>
           <Link
             href="/calendar"
-            className="hidden md:inline-flex items-center gap-1.5 rounded-full bg-accent px-4 py-2 text-sm font-medium text-bg hover:bg-accent-soft transition-colors"
+            className="hidden min-[1200px]:inline-flex items-center gap-1.5 rounded-full bg-accent px-4 py-2 text-sm font-medium text-bg hover:bg-accent-soft transition-colors"
           >
             {t("bookACall")}
             <ArrowUpRight size={15} />
@@ -166,17 +166,25 @@ export default function Nav() {
           <button
             aria-label="Toggle menu"
             onClick={() => setOpen((v) => !v)}
-            className={`md:hidden inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border ${navBorder} ${navBase}`}
+            className={`min-[1200px]:hidden inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border ${navBorder} ${navBase}`}
           >
             {open ? <X size={18} /> : <Menu size={18} />}
           </button>
+
+          <a
+            href={`tel:${SITE.phoneHref}`}
+            aria-label={`Call ${SITE.phone}`}
+            className="min-[1200px]:hidden inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-accent text-white hover:bg-accent-soft transition-colors"
+          >
+            <Phone size={18} fill="currentColor" />
+          </a>
         </div>
       </div>
 
       <div
         ref={menuRef}
         aria-hidden={!open}
-        className={`md:hidden fixed inset-0 top-20 z-40 flex flex-col justify-between overflow-y-auto bg-card px-6 pb-10 pt-4 transition-opacity duration-300 ${
+        className={`min-[1200px]:hidden fixed inset-0 top-20 z-40 flex flex-col justify-between overflow-y-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden bg-card px-6 pb-10 pt-4 transition-opacity duration-300 ${
           open ? "opacity-100" : "pointer-events-none opacity-0"
         }`}
         style={{ height: "calc(100dvh - 5rem)" }}
@@ -255,17 +263,18 @@ export default function Nav() {
             );
           })}
         </div>
-        <div className="flex flex-col gap-3">
+        <div className="flex gap-3 pt-8">
           <a
             href={localeSwitchHref}
-            className="mobile-link inline-flex items-center justify-center gap-1.5 rounded-full border border-card-border py-3.5 text-[22px] font-medium text-card-fg"
+            aria-label={otherLocale === "es" ? "Leer en español" : "Read in English"}
+            className="mobile-link inline-flex flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-full border border-card-border px-4 py-3.5 text-base font-medium text-card-fg"
           >
-            {otherLocale === "es" ? "Leer en español" : "Read in English"}
+            {otherLocale === "es" ? "Español" : "English"}
             <span aria-hidden="true">{otherLocale === "es" ? "🇲🇽" : "🇺🇸"}</span>
           </a>
           <Link
             href="/calendar"
-            className="mobile-link inline-flex items-center justify-center gap-1.5 rounded-full bg-accent px-5 py-3.5 text-base font-medium text-bg"
+            className="mobile-link inline-flex flex-1 items-center justify-center gap-1.5 whitespace-nowrap rounded-full bg-accent px-4 py-3.5 text-base font-medium text-bg"
           >
             {t("bookACall")}
             <ArrowUpRight size={16} />
